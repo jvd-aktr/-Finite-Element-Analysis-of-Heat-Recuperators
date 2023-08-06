@@ -1,0 +1,137 @@
+ 
+Program name         : marc  
+Job ID               : C:\Mac Mentat\test1_job1   
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads :  
+Solver processes     :  
+Solver threads       :  
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Mac Mentat 
+Scratch directory    : C:\Mac Mentat 
+Default bin directory: C:\MSC.Software\Marc\2018.0.0\marc2018\bin\win64i8 
+Material database    : C:\MSC.Software\Marc\2018.0.0\marc2018\AF_flowmat\  
+  
+ 
+Fri 12/03/2021 
+11:45 AM
+ 
+ Marc test1_job1 begins execution
+
+     (c) COPYRIGHT 2018 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION: Marc 2018.0.0 GA, build 581209 (2018/07/02)
+
+
+
+     Date: Fri Dec 03 11:45:40 2021
+
+                              Marc execution begins
+ Date:          Fri Dec  3 11:45:41 2021
+ MSC Id:        00059a3c7a00 (ethernet) (Intel)
+ Hostname:      LAPTOP-PI1O3UB7 (user akhta, display LAPTOP-PI1O3UB7)
+ License files: 27500@twister2.nmsu.edu
+ CEID:          5684B502-68C8898E
+ User:          akhta
+ Display:       LAPTOP-PI1O3UB7
+ LAPI Version:  LAPI 10.4.5 x64_n6 :: Build 3752 20180608181726Z (FLEXlm 11.13.1.0)
+Acquired 1 license for Marc from license server on host twister2.nmsu.edu
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =     12130 MByte
+
+             general memory increasing from      25 MByte to     133 MByte
+
+   MSC Customer Entitlement ID
+        5684B502-68C8898E
+
+             general memory increasing from     133 MByte to     231 MByte
+             wall time =          43.00
+
+             wall time =          54.00
+
+Returned 1 license for Marc
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:         109    28497608         4.1
+               solver: first part                    0           0         0.0
+               overallocation initial allocation   111    29134120         4.1
+               other:                               12     3085834         0.4
+              allocated separately:
+               nodal vectors:                      391   102554904        14.6
+               defined sets:                         1      166330         0.0
+               transformations:                      4     1165396         0.2
+               kinematic boundary conditions:        0        7172         0.0
+               points, curves and surfaces:          0         336         0.0
+               mem_none:                           206    54024762         7.7
+               element storage:                   1823   477926706        67.9
+               material properties:                  0        7442         0.0
+               executable and common blocks:        27     7000000         1.0
+               miscellaneous                         0         322         0.0
+               ---------------------------------------------------------------
+               total:                             2684   703570932
+
+               general memory allocated:           232    60717562
+               general memory used:                120    31583442
+
+               peak memory usage:                 2817   738514938
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                             50.95         50.91
+               total time for stiffness matrix assembly:          0.00          0.00
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.00          0.00
+               total time for matrix solution:                    0.00          0.00
+               total time for output:                             0.00          0.00
+               total time for miscellaneous:                      2.70          0.77
+               ---------------------------------------------------------------------
+               total time:                                       53.65         51.67
+
+
+             **************************************************************************
+
+
+             
+             Data errors have been detected during data input.  Refer to
+             output for location of error.  Likely causes are misspelled
+             keywords, mistyped lines or invalid input options.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2018.0.0 GA
+
+                                        Exit number   13
+
