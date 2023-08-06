@@ -1,0 +1,602 @@
+ 
+Program name         : marc  
+Job ID               : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test1+_Sweep\test1+_Sweep_job1   
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads : 2 
+Solver processes     :  
+Solver threads       : 2 
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test1+_Sweep 
+Scratch directory    : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test1+_Sweep 
+Default bin directory: C:\MSC.Software\Marc\2018.0.0\marc2018\bin\win64i8 
+Material database    : C:\MSC.Software\Marc\2018.0.0\marc2018\AF_flowmat\  
+  
+ 
+Mon 12/06/2021 
+09:56 AM
+ 
+ Marc test1+_Sweep_job1 begins execution
+
+     (c) COPYRIGHT 2018 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    2
+ Requested number of solver threads                      =    2
+
+
+ VERSION: Marc 2018.0.0 GA, build 581209 (2018/07/02)
+
+
+
+     Date: Mon Dec 06 09:56:05 2021
+
+                              Marc execution begins
+ Date:          Mon Dec  6 09:56:06 2021
+ MSC Id:        00059a3c7a00 (ethernet) (Intel)
+ Hostname:      LAPTOP-PI1O3UB7 (user akhta, display LAPTOP-PI1O3UB7)
+ License files: 27500@twister2.nmsu.edu
+ CEID:          5684B502-68C8898E
+ User:          akhta
+ Display:       LAPTOP-PI1O3UB7
+ LAPI Version:  LAPI 10.4.5 x64_n6 :: Build 3752 20180608181726Z (FLEXlm 11.13.1.0)
+Acquired 1 license for Marc from license server on host twister2.nmsu.edu
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =     12130 MByte
+
+             general memory increasing from      25 MByte to     106 MByte
+
+   MSC Customer Entitlement ID
+        5684B502-68C8898E
+
+Acquired 2 licenses for Marc Parallel from license server on host twister2.nmsu.edu
+             wall time =          12.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+             wall time =          14.00
+
+
+             start of assembly     cycle number is     0
+             wall time =          15.00
+
+
+
+             start of matrix solution
+             wall time =          17.00
+
+             CASI Assembly  Completed
+             wall time =          19.00
+
+             CASI Preconditioner Completed
+             wall time =          20.00
+
+
+
+             end of matrix solution
+             wall time =          21.00
+
+
+             total  memory =          952  MByte
+
+             e n d   o f   i n c r e m e n t       0
+             wall time =          27.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+
+
+
+             s t a r t   o f   i n c r e m e n t       1
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          28.00
+
+
+
+             start of matrix solution
+             wall time =          28.00
+
+             CASI Assembly  Completed
+             wall time =          29.00
+
+             CASI Preconditioner Completed
+             wall time =          29.00
+
+
+
+             end of matrix solution
+             wall time =          29.00
+
+
+
+             maximum error between temperature estimate and solution is  9.2249E+02 at node     127900
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          29.00
+
+
+
+             start of matrix solution
+             wall time =          30.00
+
+             CASI Assembly  Completed
+             wall time =          30.00
+
+             CASI Preconditioner Completed
+             wall time =          30.00
+
+
+
+             end of matrix solution
+             wall time =          30.00
+
+
+
+             maximum error between temperature estimate and solution is  1.9509E+02 at node     134715
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =          30.00
+
+
+
+             start of matrix solution
+             wall time =          31.00
+
+             CASI Assembly  Completed
+             wall time =          31.00
+
+             CASI Preconditioner Completed
+             wall time =          32.00
+
+
+
+             end of matrix solution
+             wall time =          32.00
+
+
+
+             maximum error between temperature estimate and solution is  8.4606E+00 at node     148752
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.008E+03 at node     127900
+
+             this is  1.008E+03 percent of change allowed on control option
+
+
+             automatic time stepping is switched off
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          32.00
+
+
+
+             start of matrix solution
+             wall time =          32.00
+
+             CASI Assembly  Completed
+             wall time =          33.00
+
+             CASI Preconditioner Completed
+             wall time =          34.00
+
+
+
+             end of matrix solution
+             wall time =          36.00
+
+
+             maximum residual force  at node    102234 degree of freedom  1 is equal to    6.276E+00
+             maximum reaction force  at node    156618 degree of freedom  3 is equal to    2.466E+02
+             residual convergence ratio    2.545E-02
+
+             total  memory =         1292  MByte
+
+             e n d   o f   i n c r e m e n t       1
+             wall time =          39.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+
+
+
+             s t a r t   o f   i n c r e m e n t       2
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          40.00
+
+
+
+             start of matrix solution
+             wall time =          40.00
+
+             CASI Assembly  Completed
+             wall time =          41.00
+
+             CASI Preconditioner Completed
+             wall time =          41.00
+
+
+
+             end of matrix solution
+             wall time =          41.00
+
+
+
+             maximum error between temperature estimate and solution is  1.0254E+03 at node        281
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          41.00
+
+
+
+             start of matrix solution
+             wall time =          41.00
+
+             CASI Assembly  Completed
+             wall time =          42.00
+
+             CASI Preconditioner Completed
+             wall time =          42.00
+
+
+
+             end of matrix solution
+             wall time =          42.00
+
+
+
+             maximum error between temperature estimate and solution is  3.4980E+01 at node     157916
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =          42.00
+
+
+
+             start of matrix solution
+             wall time =          42.00
+
+             CASI Assembly  Completed
+             wall time =          43.00
+
+             CASI Preconditioner Completed
+             wall time =          43.00
+
+
+
+             end of matrix solution
+             wall time =          43.00
+
+
+
+             maximum error between temperature estimate and solution is  1.1684E+00 at node     152029
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.042E+03 at node        281
+
+             this is  1.042E+03 percent of change allowed on control option
+
+             step will be recycled with time increment of  2.302E-02
+
+             start of assembly     cycle number is     0
+             wall time =          43.00
+
+
+
+             start of matrix solution
+             wall time =          44.00
+
+             CASI Assembly  Completed
+             wall time =          44.00
+
+             CASI Preconditioner Completed
+             wall time =          44.00
+
+
+
+             end of matrix solution
+             wall time =          44.00
+
+
+
+             maximum error between temperature estimate and solution is  7.2341E+02 at node        293
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          44.00
+
+
+
+             start of matrix solution
+             wall time =          45.00
+
+             CASI Assembly  Completed
+             wall time =          45.00
+
+             CASI Preconditioner Completed
+             wall time =          45.00
+
+
+
+             end of matrix solution
+             wall time =          45.00
+
+
+
+             maximum error between temperature estimate and solution is  2.2559E+01 at node     154154
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.157E+02 at node        293
+
+             this is  8.157E+02 percent of change allowed on control option
+
+             step will be recycled with time increment of  2.258E-03
+
+             start of assembly     cycle number is     0
+             wall time =          45.00
+
+
+
+             start of matrix solution
+             wall time =          46.00
+
+             CASI Assembly  Completed
+             wall time =          46.00
+
+             CASI Preconditioner Completed
+             wall time =          46.00
+
+
+
+             end of matrix solution
+             wall time =          46.00
+
+
+
+             maximum error between temperature estimate and solution is  3.3940E+02 at node        291
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          46.00
+
+
+
+             start of matrix solution
+             wall time =          47.00
+
+             CASI Assembly  Completed
+             wall time =          47.00
+
+             CASI Preconditioner Completed
+             wall time =          47.00
+
+
+
+             end of matrix solution
+             wall time =          47.00
+
+
+
+             maximum error between temperature estimate and solution is  4.5966E+00 at node        291
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.239E+02 at node        291
+
+             this is  4.239E+02 percent of change allowed on control option
+
+             step will be recycled with time increment of  4.261E-04
+
+             start of assembly     cycle number is     0
+             wall time =          48.00
+
+
+
+             start of matrix solution
+             wall time =          48.00
+
+             CASI Assembly  Completed
+             wall time =          48.00
+
+             CASI Preconditioner Completed
+             wall time =          48.00
+
+
+
+             end of matrix solution
+             wall time =          49.00
+
+
+
+             maximum error between temperature estimate and solution is  8.3188E+01 at node     153941
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          49.00
+
+
+
+             start of matrix solution
+             wall time =          49.00
+
+             CASI Assembly  Completed
+             wall time =          50.00
+
+             CASI Preconditioner Completed
+             wall time =          50.00
+
+
+
+             end of matrix solution
+             wall time =          50.00
+
+
+
+             maximum error between temperature estimate and solution is  5.4230E-01 at node     153941
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.607E+02 at node     153941
+
+             this is  1.607E+02 percent of change allowed on control option
+
+             time increment will be set to min. time step
+
+             step will be recycled with time increment of  3.000E-04
+
+             start of assembly     cycle number is     0
+             wall time =          50.00
+
+
+
+             start of matrix solution
+             wall time =          50.00
+
+             CASI Assembly  Completed
+             wall time =          51.00
+
+             CASI Preconditioner Completed
+             wall time =          51.00
+
+
+
+             end of matrix solution
+             wall time =          51.00
+
+
+
+             maximum error between temperature estimate and solution is  1.0694E+01 at node     153941
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.238E+02 at node     153941
+
+             this is  1.238E+02 percent of change allowed on control option
+
+             error - unable to reduce time step below  minimum of    3.00000E-04
+                           specified in input
+Returned 1 license for Marc
+
+Returned 2 licenses for Marc Parallel
+
+             average number of CASI iterations =         44
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          14     3610088         1.0
+               solver: first part                  185    48458792        13.5
+               other:                                0      113552         0.0
+              allocated separately:
+               incremental backup:                 291    76315664        21.2
+               solver 9                            130    34039795         9.5
+               nodal vectors:                       60    15840060         4.4
+               defined sets:                         5     1356818         0.4
+               transformations:                      1      348132         0.1
+               kinematic boundary conditions:        6     1694034         0.5
+               tables:                               0        1592         0.0
+               points, curves and surfaces:          0         372         0.0
+               mem_none:                           372    97486504        27.1
+               element storage:                    374    97949248        27.2
+               material properties:                  0        6242         0.0
+               element coloring resident:            0      111176         0.0
+               element coloring peak:                3      719124         0.2
+               multi-threading scratch array:        0         794         0.0
+               executable and common blocks:        27     7000000         1.9
+               ---------------------------------------------------------------
+               total:                             1374   360153925
+
+               general memory allocated:           107    28003866
+               general memory used:                199    52182432
+
+               peak memory usage:                 1583   414928769
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              9.41          8.91
+               total time for stiffness matrix assembly:          4.24          8.36
+               total time for mass matrix assembly:               1.80          3.47
+               total time for stress recovery:                    3.84          7.41
+               total time for matrix solution:                   17.89         20.22
+               total time for output:                             7.82          8.14
+               total time for miscellaneous:                      5.83          2.66
+               ---------------------------------------------------------------------
+               total time:                                       50.83         59.16
+
+
+             multi-threading overheads:                      wall time      cpu time
+
+               total time for multi-threading:                    0.06          0.03
+               (note that this time is also counted
+                in other sections)
+
+
+
+             **************************************************************************
+
+
+             
+             Unable to reduce the time step below the minimum value
+             allowed, and to still satisfy the user criteria in the AUTO
+             STEP history definition option. Either change the criteria
+             or reduce the minimum time step allowed.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2018.0.0 GA
+
+                                        Exit number 3015
+
