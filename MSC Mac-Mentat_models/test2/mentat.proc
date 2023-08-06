@@ -1,0 +1,281 @@
+| Created by Marc Mentat 2018.0.0 GA (64bit)
+*prog_option compatibility:prog_version:ment2018
+*prog_analysis_class structural
+*prog_use_current_job on
+*set_default_length_unit millimeter
+*set_model_length_unit millimeter
+|
+*open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2\test2.mud"
+*fill_view
+*prog_analysis_class thermal/structural
+*set_save_formatted off *save_as_model "..\test3\test3.mud" yes
+*add_points
+-0.00025 -0.00305
+*point_display_on *redraw
+*fill_view
+0
+*fill_view
+*point_display_off *redraw
+*point_display_on *redraw
+*undo
+*mouse_button_release(1)
+*undo
+*point_display_off *redraw
+*point_display_on *redraw
+*fill_view
+*model_orientation_iso3
+*model_orientation_iso2
+*model_orientation_iso4
+*model_orientation_iso3
+*model_orientation_iso1
+*fill_view
+*fill_view
+*model_orientation_back
+*model_orientation_front
+*model_orientation_front
+*model_orientation_front
+*model_orientation_front
+*model_orientation_front
+*undo
+*distance
+  -2.500000000000e-04   2.550000000000e-03   0.000000000000e+00
+*add_points
+-0.00025 0.00305 0
+*undo
+*add_points
+-0.00225 0.00455 0
+0.01165 0.00455 0
+0.01165 -0.00505 0
+-0.00225 -0.00505 0
+*add_curves
+ 13
+ 14
+ 14
+ 15
+ 15
+ 16
+ 16
+ 13
+*set_curve_div_type_fix_avgl
+*set_curve_div_avgl 0.001
+*apply_curve_divisions
+ 1 2 3 4 5 6 7 8 9 10 11 12
+# | End of List
+*af_planar_quadmesh
+ 1 2 3 4 5 6 7 8 9 10 11 12
+# | End of List
+*set_expand_translation z 0.001
+*set_expand_repetitions 50
+*expand_elements
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+ 30 31 32 33 34 35 36 37 38 39 40 41 42 43
+# | End of List
+*model_orientation_iso1
+*model_orientation_front
+*set_curve_div_avgl 0.005
+*apply_curve_divisions
+ 13
+ 16
+ 14
+ 15
+# | End of List
+*clear_curve_divisions
+ 16
+ 13
+ 14
+ 15
+# | End of List
+*set_curve_div_avgl 0.002
+*apply_curve_divisions
+ 13
+ 16
+ 15
+ 14
+# | End of List
+*clear_mesh
+*clear_curve_divisions
+all_existing
+
+*remove_curves
+ 16
+# | End of List
+ 13
+# | End of List
+ 11
+# | End of List
+ 12
+# | End of List
+ 9
+# | End of List
+ 10
+# | End of List
+ 14
+# | End of List
+ 15
+# | End of List
+*distance
+   0.000000000000e+00  -5.000000000000e-04   0.000000000000e+00
+   0.000000000000e+00   0.000000000000e+00   0.000000000000e+00
+*add_curves
+*remove_curves
+ 8
+ 7
+ 6
+ 5
+# | End of List
+*remove_points
+ 5 6 7 8 9 10 15
+# | End of List
+ 16
+# | End of List
+# | End of List
+ 11 12 13 14
+# | End of List
+*set_model_length_unit millimeter
+*fill_view
+*distance
+   0.000000000000e+00   0.000000000000e+00   0.000000000000e+00
+   0.000000000000e+00   2.300000000000e+00   0.000000000000e+00
+*add_points
+0 -1 0
+9.4 -1 0
+9.4 -3.3 0
+0 -3.3 0
+-0.5 2.8 0
+9.9 2.8 0
+9.9 -3.8 0
+*fill_view
+-0.5 -3.3 0
+*remove_points
+ 23
+# | End of List
+*add_points
+-0.5 -3.8 0
+*add_curves
+ 16
+ 17
+ 17
+ 18
+ 18
+ 19
+ 19
+ 16
+ 20
+ 21
+ 21
+ 22
+ 22
+ 23
+ 23
+ 20
+*add_points
+-4.5 7.8 0
+*fill_view
+13.9 7.8 0
+13.9 -3.8 0
+*remove_points
+ 26
+# | End of List
+*add_points
+13.9 -7.8 0
+-4.5 -7.8 0
+*fill_view
+*add_curves
+ 24
+ 25
+ 25
+ 26
+ 26
+ 27
+ 27
+ 24
+*fill_view
+*set_curve_div_avgl 1
+*apply_curve_divisions
+ 1 2 3 4 15 16 17 18 19 20 21 22
+# | End of List
+*set_curve_div_avgl 2
+*apply_curve_divisions
+ 26
+ 23
+ 24
+ 25
+# | End of List
+*af_planar_quadmesh
+ 1 2 3 4 15 16 17 18 19 20 21 22
+# | End of List
+*set_expand_translation z 1
+*set_expand_repetitions 50
+*af_planar_quadmesh
+*expand_elements
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+ 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+*expand_elements
+*model_orientation_iso2
+*model_orientation_front
+*expand_reset
+*set_expand_translation z 1
+*set_expand_repetitions 50
+*expand_elements
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+ 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+# | End of List
+*model_orientation_iso1
+*model_orientation_iso1
+*model_orientation_front
+*af_planar_quadmesh
+ 26
+ 23
+ 25
+ 24
+# | End of List
+*model_orientation_left
+*expand_elements
+*expand_elements
+*expand_elements
+*set_expand_translation z -2
+*set_expand_repetitions 3
+*expand_elements
+ 2398 2399 2400 2401 2402 2403 2404 2405 2406 2407 2408 2409 2410 2411 2412 2413
+ 2414 2415 2416 2417 2418 2419 2420 2421 2422 2423 2424 2425 2426 2427 2428 2429
+ 2430 2431 2432 2433 2434 2435 2436 2437 2438 2439 2440 2441 2442 2443 2444 2445
+ 2446 2447 2448 2449 2450 2451 2452 2453 2454 2455 2456 2457 2458 2459 2460 2461
+ 2462 2463 2464 2465 2466 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477
+# | End of List
+*model_orientation_iso1
+*model_orientation_iso3
+*save_model
+*new_md_table 1 1
+*set_md_table_type 1
+temperature
+*table_name Young_Modulus
+*set_md_table_min_v 1 20
+*set_md_table_max_v 1 1265
+*table_name Youngs_Modulus
+*set_md_table_step_v 1 50
+*set_md_table_min_f 1 1.1e10
+*set_md_table_max_f 1 1.15e11
+*set_md_table_step_f 1 50
+*table_fit
+*set_md_table_method_formula
+*set_md_table_method_data_points
+*table_add
+*edit_table Youngs_Modulus
+
+*edit_table Youngs_Modulus
+
+*edit_table Youngs_Modulus
+
+*edit_table Youngs_Modulus
+
+*edit_table Youngs_Modulus
+*set_md_table_type 1
+*current_graphics_window model:1
+*current_graphics_window table:1
+*edit_table Youngs_Modulus *remove_current_table
+*fill_view
+*current_graphics_window model:1
+*save_model
+*save_model
+*save_model
+*save_model *quit yes

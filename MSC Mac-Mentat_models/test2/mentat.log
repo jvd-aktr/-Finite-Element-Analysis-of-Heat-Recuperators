@@ -1,0 +1,332 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2\test2.mud"
+File has been written by Mentat 2018.0.0.
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2\test2.mud opened for reading.
+Model c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2\test2 opened.
+Command > *fill_view
+Command > *prog_analysis_class thermal/structural
+Command > *set_save_formatted off *save_as_model "..\test3\test3.mud" yes
+Model saved to ..\test3\test3.mud.
+Command > *add_points
+Enter point coordinates (X) : -0.00025 -0.00305
+Enter point coordinates (Z) : *point_display_on *redraw
+Enter point coordinates (Z) : *fill_view
+Enter point coordinates (Z) : 0
+Point 13 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : *point_display_off *redraw
+Enter point coordinates (X) : *point_display_on *redraw
+Enter point coordinates (X) : *undo
+Command > *undo
+Command > *point_display_off *redraw
+Command > *point_display_on *redraw
+Command > *fill_view
+Command > *model_orientation_iso3
+Command > *model_orientation_iso2
+Command > *model_orientation_iso4
+Command > *model_orientation_iso3
+Command > *model_orientation_iso1
+Command > *fill_view
+Command > *fill_view
+Command > *model_orientation_back
+Command > *model_orientation_front
+Command > *model_orientation_front
+Command > *model_orientation_front
+Command > *model_orientation_front
+Command > *model_orientation_front
+Command > *undo
+Command > *distance
+Enter first xyz coordinates :   -2.500000000000e-04   2.550000000000e-03   0.000000000000e+00
+Enter second xyz coordinates : *add_points
+Enter point coordinates (X) : -0.00025 0.00305 0
+Point 13 added.
+Enter point coordinates (X) : *undo
+Command > *add_points
+Enter point coordinates (X) : -0.00225 0.00455 0
+Point 13 added.
+Enter point coordinates (X) : 0.01165 0.00455 0
+Point 14 added.
+Enter point coordinates (X) : 0.01165 -0.00505 0
+Point 15 added.
+Enter point coordinates (X) : -0.00225 -0.00505 0
+Point 16 added.
+Enter point coordinates (X) : *add_curves
+Enter line points :  13
+Enter line points :  14
+Curve 13 added.
+Enter line points :  14
+Enter line points :  15
+Curve 14 added.
+Enter line points :  15
+Enter line points :  16
+Curve 15 added.
+Enter line points :  16
+Enter line points :  13
+Curve 16 added.
+Enter line points : *set_curve_div_type_fix_avgl
+Enter line points : *set_curve_div_avgl 0.001
+Command > *apply_curve_divisions
+Enter curve list :  1 2 3 4 5 6 7 8 9 10 11 12
+Enter curve list : # | End of List
+Enter curve list : *af_planar_quadmesh
+Enter curve list :  1 2 3 4 5 6 7 8 9 10 11 12
+Enter curve list : # | End of List
+Quad meshing complete (43 elements)
+Enter curve list : *set_expand_translation z 0.001
+Command > *set_expand_repetitions 50
+Command > *expand_elements
+Enter expand element list :  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+Enter expand element list :  30 31 32 33 34 35 36 37 38 39 40 41 42 43
+Enter expand element list : # | End of List
+Enter expand element list : *model_orientation_iso1
+Enter expand element list : *model_orientation_front
+Enter expand element list : *set_curve_div_avgl 0.005
+Command > *apply_curve_divisions
+Enter curve list :  13
+Enter curve list :  16
+Enter curve list :  14
+Enter curve list :  15
+Enter curve list : # | End of List
+Enter curve list : *clear_curve_divisions
+Enter curve list :  16
+Enter curve list :  13
+Enter curve list :  14
+Enter curve list :  15
+Enter curve list : # | End of List
+Enter curve list : *set_curve_div_avgl 0.002
+Command > *apply_curve_divisions
+Enter curve list :  13
+Enter curve list :  16
+Enter curve list :  15
+Enter curve list :  14
+Enter curve list : # | End of List
+Enter curve list : *clear_mesh
+Command > *clear_curve_divisions
+Enter curve list : all_existing
+Enter curve list : 
+Command > *remove_curves
+Enter remove curve list :  16
+Enter remove curve list : # | End of List
+Enter remove curve list :  13
+Enter remove curve list : # | End of List
+Enter remove curve list :  11
+Enter remove curve list : # | End of List
+Enter remove curve list :  12
+Enter remove curve list : # | End of List
+Enter remove curve list :  9
+Enter remove curve list : # | End of List
+Enter remove curve list :  10
+Enter remove curve list : # | End of List
+Enter remove curve list :  14
+Enter remove curve list : # | End of List
+Enter remove curve list :  15
+Enter remove curve list : # | End of List
+Enter remove curve list : *distance
+Enter first xyz coordinates :    0.000000000000e+00  -5.000000000000e-04   0.000000000000e+00
+Enter second xyz coordinates :    0.000000000000e+00   0.000000000000e+00   0.000000000000e+00
+Distance : 0.0005 (0 0.0005 0)
+Angles :  90.0000   0.0000  90.0000
+Enter first xyz coordinates : *add_curves
+Enter line points : *remove_curves
+Enter remove curve list :  8
+Enter remove curve list :  7
+Enter remove curve list :  6
+Enter remove curve list :  5
+Enter remove curve list : # | End of List
+Enter remove curve list : *remove_points
+Enter remove point list :  5 6 7 8 9 10 15
+Enter remove point list : # | End of List
+Enter remove point list :  16
+Enter remove point list : # | End of List
+Enter remove point list : # | End of List
+Enter remove point list :  11 12 13 14
+Enter remove point list : # | End of List
+Enter remove point list : *set_model_length_unit millimeter
+INFO: The length unit of the model has been changed to millimeter.
+Command > *fill_view
+Command > *distance
+Enter first xyz coordinates :    0.000000000000e+00   0.000000000000e+00   0.000000000000e+00
+Enter second xyz coordinates :    0.000000000000e+00   2.300000000000e+00   0.000000000000e+00
+Distance : 2.3 (0 2.3 0)
+Angles :  90.0000   0.0000  90.0000
+Enter first xyz coordinates : *add_points
+Enter point coordinates (X) : 0 -1 0
+Point 16 added.
+Enter point coordinates (X) : 9.4 -1 0
+Point 17 added.
+Enter point coordinates (X) : 9.4 -3.3 0
+Point 18 added.
+Enter point coordinates (X) : 0 -3.3 0
+Point 19 added.
+Enter point coordinates (X) : -0.5 2.8 0
+Point 20 added.
+Enter point coordinates (X) : 9.9 2.8 0
+Point 21 added.
+Enter point coordinates (X) : 9.9 -3.8 0
+Point 22 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : -0.5 -3.3 0
+Point 23 added.
+Enter point coordinates (X) : *remove_points
+Enter remove point list :  23
+Enter remove point list : # | End of List
+Enter remove point list : *add_points
+Enter point coordinates (X) : -0.5 -3.8 0
+Point 23 added.
+Enter point coordinates (X) : *add_curves
+Enter line points :  16
+Enter line points :  17
+Curve 15 added.
+Enter line points :  17
+Enter line points :  18
+Curve 16 added.
+Enter line points :  18
+Enter line points :  19
+Curve 17 added.
+Enter line points :  19
+Enter line points :  16
+Curve 18 added.
+Enter line points :  20
+Enter line points :  21
+Curve 19 added.
+Enter line points :  21
+Enter line points :  22
+Curve 20 added.
+Enter line points :  22
+Enter line points :  23
+Curve 21 added.
+Enter line points :  23
+Enter line points :  20
+Curve 22 added.
+Enter line points : *add_points
+Enter point coordinates (X) : -4.5 7.8 0
+Point 24 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : 13.9 7.8 0
+Point 25 added.
+Enter point coordinates (X) : 13.9 -3.8 0
+Point 26 added.
+Enter point coordinates (X) : *remove_points
+Enter remove point list :  26
+Enter remove point list : # | End of List
+Enter remove point list : *add_points
+Enter point coordinates (X) : 13.9 -7.8 0
+Point 26 added.
+Enter point coordinates (X) : -4.5 -7.8 0
+Point 27 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : *add_curves
+Enter line points :  24
+Enter line points :  25
+Curve 23 added.
+Enter line points :  25
+Enter line points :  26
+Curve 24 added.
+Enter line points :  26
+Enter line points :  27
+Curve 25 added.
+Enter line points :  27
+Enter line points :  24
+Curve 26 added.
+Enter line points : *fill_view
+Enter line points : *set_curve_div_avgl 1
+Command > *apply_curve_divisions
+Enter curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter curve list : # | End of List
+Enter curve list : *set_curve_div_avgl 2
+Command > *apply_curve_divisions
+Enter curve list :  26
+Enter curve list :  23
+Enter curve list :  24
+Enter curve list :  25
+Enter curve list : # | End of List
+Enter curve list : *af_planar_quadmesh
+Enter curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter curve list : # | End of List
+Quad meshing complete (47 elements)
+Enter curve list : *set_expand_translation z 1
+Command > *set_expand_repetitions 50
+Command > *af_planar_quadmesh
+Enter curve list : *expand_elements
+Enter expand element list :  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+Enter expand element list :  30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+Enter expand element list : *expand_elements
+Enter expand element list : *model_orientation_iso2
+Enter expand element list : *model_orientation_front
+Enter expand element list : *expand_reset
+Enter expand element list : *set_expand_translation z 1
+Command > *set_expand_repetitions 50
+Command > *expand_elements
+Enter expand element list :  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+Enter expand element list :  30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+Enter expand element list : # | End of List
+Enter expand element list : *model_orientation_iso1
+Enter expand element list : *model_orientation_iso1
+Enter expand element list : *model_orientation_front
+Enter expand element list : *af_planar_quadmesh
+Enter curve list :  26
+Enter curve list :  23
+Enter curve list :  25
+Enter curve list :  24
+Enter curve list : # | End of List
+Quad meshing complete (80 elements)
+Enter curve list : *model_orientation_left
+Enter curve list : *expand_elements
+Enter expand element list : *expand_elements
+Enter expand element list : *expand_elements
+Enter expand element list : *set_expand_translation z -2
+Command > *set_expand_repetitions 3
+Command > *expand_elements
+Enter expand element list :  2398 2399 2400 2401 2402 2403 2404 2405 2406 2407 2408 2409 2410 2411 2412 2413
+Enter expand element list :  2414 2415 2416 2417 2418 2419 2420 2421 2422 2423 2424 2425 2426 2427 2428 2429
+Enter expand element list :  2430 2431 2432 2433 2434 2435 2436 2437 2438 2439 2440 2441 2442 2443 2444 2445
+Enter expand element list :  2446 2447 2448 2449 2450 2451 2452 2453 2454 2455 2456 2457 2458 2459 2460 2461
+Enter expand element list :  2462 2463 2464 2465 2466 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477
+Enter expand element list : # | End of List
+Enter expand element list : *model_orientation_iso1
+Enter expand element list : *model_orientation_iso3
+Enter expand element list : *save_model
+Model file ..\test3\test3.mud opened for writing.
+Model saved to ..\test3\test3.
+Enter expand element list : *new_md_table 1 1
+Command > *set_md_table_type 1
+Enter the type for V1 : temperature
+Command > *table_name Young_Modulus
+Command > *set_md_table_min_v 1 20
+Command > *set_md_table_max_v 1 1265
+Command > *table_name Youngs_Modulus
+Command > *set_md_table_step_v 1 50
+Command > *set_md_table_min_f 1 1.1e10
+Command > *set_md_table_max_f 1 1.15e11
+Command > *set_md_table_step_f 1 50
+Command > *table_fit
+Command > *set_md_table_method_formula
+Command > *set_md_table_method_data_points
+Command > *table_add
+Enter independent variable V1 value : *edit_table Youngs_Modulus
+Enter table name : 
+Command > *edit_table Youngs_Modulus
+Enter table name : 
+Command > *edit_table Youngs_Modulus
+Enter table name : 
+Command > *edit_table Youngs_Modulus
+Enter table name : 
+Command > *edit_table Youngs_Modulus
+Enter table name : *set_md_table_type 1
+Enter the type for V1 : *current_graphics_window model:1
+Command > *current_graphics_window table:1
+Command > *edit_table Youngs_Modulus *remove_current_table
+Enter table name : *fill_view
+Enter table name : *current_graphics_window model:1
+Command > *save_model
+Model file ..\test3\test3.mud opened for writing.
+Model saved to ..\test3\test3.
+Command > *save_model
+Model file ..\test3\test3.mud opened for writing.
+Model saved to ..\test3\test3.
+Command > *save_model
+Model file ..\test3\test3.mud opened for writing.
+Model saved to ..\test3\test3.
+Command > *save_model *quit yes
+Model file ..\test3\test3.mud opened for writing.
+Model saved to ..\test3\test3.
