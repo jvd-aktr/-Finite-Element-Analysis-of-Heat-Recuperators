@@ -1,0 +1,153 @@
+ 
+Program name         : marc  
+Job ID               : C:\Mac Mentat\test2+\test2+_job1   
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads : 2 
+Solver processes     :  
+Solver threads       : 2 
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Mac Mentat\test2+ 
+Scratch directory    : C:\Mac Mentat\test2+ 
+Default bin directory: C:\MSC.Software\Marc\2018.0.0\marc2018\bin\win64i8 
+Material database    : C:\MSC.Software\Marc\2018.0.0\marc2018\AF_flowmat\  
+  
+ 
+Sun 12/05/2021 
+10:15 PM
+ 
+ Marc test2+_job1 begins execution
+
+     (c) COPYRIGHT 2018 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    2
+ Requested number of solver threads                      =    2
+
+
+ VERSION: Marc 2018.0.0 GA, build 581209 (2018/07/02)
+
+
+
+     Date: Sun Dec 05 22:15:37 2021
+
+                              Marc execution begins
+ Date:          Sun Dec  5 22:15:37 2021
+ MSC Id:        1866da1621d1 (ethernet) (Intel)
+ Hostname:      JH-245-40 (user akhtarj, display JH-245-40)
+ License files: 27500@twister2
+ CEID:          5684B502-68C8898E
+ User:          akhtarj
+ Display:       JH-245-40
+ LAPI Version:  LAPI 10.4.5 x64_n6 :: Build 3752 20180608181726Z (FLEXlm 11.13.1.0)
+Acquired 1 license for Marc from license server on host twister2
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =     16309 MByte
+
+             general memory increasing from      25 MByte to     106 MByte
+
+   MSC Customer Entitlement ID
+        5684B502-68C8898E
+
+Acquired 2 licenses for Marc Parallel from license server on host twister2
+             wall time =           5.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+             wall time =           6.00
+
+Returned 1 license for Marc
+
+Returned 2 licenses for Marc Parallel
+
+             average number of CASI iterations =          0
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          10     2551554         1.4
+               solver: first part                   47    12400000         6.9
+               overallocation initial allocation    49    12938640         7.2
+               other:                                0      113672         0.1
+              allocated separately:
+               solver 9                              0          80         0.0
+               nodal vectors:                       64    16886378         9.3
+               defined sets:                         6     1543214         0.9
+               transformations:                      1      371128         0.2
+               kinematic boundary conditions:        0        7894         0.0
+               tables:                               0        1592         0.0
+               points, curves and surfaces:          0         372         0.0
+               mem_none:                           110    28878598        16.0
+               element storage:                    374    98057608        54.2
+               material properties:                  0        5692         0.0
+               executable and common blocks:        27     7000000         3.9
+               miscellaneous                         0         642         0.0
+               ---------------------------------------------------------------
+               total:                              690   180757064
+
+               general memory allocated:           107    28003866
+               general memory used:                 57    15065226
+
+               peak memory usage:                  690   180757064
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              5.87          5.86
+               total time for stiffness matrix assembly:          0.00          0.00
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.00          0.00
+               total time for matrix solution:                    0.00          0.00
+               total time for output:                             0.00          0.00
+               total time for miscellaneous:                      0.88          0.31
+               ---------------------------------------------------------------------
+               total time:                                        6.75          6.17
+
+
+             multi-threading overheads:                      wall time      cpu time
+
+               total time for multi-threading:                    0.00          0.00
+               (note that this time is also counted
+                in other sections)
+
+
+
+             **************************************************************************
+
+
+             
+             Data errors have been detected during data input.  Refer to
+             output for location of error.  Likely causes are misspelled
+             keywords, mistyped lines or invalid input options.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2018.0.0 GA
+
+                                        Exit number   13
+

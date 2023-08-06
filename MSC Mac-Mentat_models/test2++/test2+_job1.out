@@ -1,0 +1,1487 @@
+                            M               M
+                            W               W
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    M               M               M
+                    W               W               W
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                            M               M
+                            W               W
+
+             version: Marc 2018.0.0 GA, build 581209 (2018/07/02)
+
+             machine type: WINDOWS
+
+             integer*8 version: integers are 64-bits
+
+             date: Sun Dec 05 22:15:37 2021
+
+
+             (c) COPYRIGHT 2018 MSC Software Corporation, all rights reserved
+
+                    Marc - W i n d o w s       
+
+                     i n p u t   d a t a
+
+
+                p a g e          1
+
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     title               job1
+                     $....MARC input file produced by Marc Mentat 2018.0.0 GA (64bit)
+                     $...................................
+                     $....input file using extended precision
+    card         5   extended
+                     $...................................
+                     sizing                                 0     54295     92782         0
+                     alloc                       25
+                     elements                     7
+    card        10   version                     13
+                     table                        0         0         2         1         1         0         0         1
+                     processor                    1         1         1         0
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+             general memory increasing from      25 MByte to     106 MByte
+
+
+             memory increased to        28003866 words during 
+             pre-reading of sets
+
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+             allocated          2 words of memory due to tables
+
+
+   MSC Customer Entitlement ID
+        5684B502-68C8898E
+
+
+
+                    *************************************************
+                    *************************************************
+
+                     program sizing and options requested as follows
+
+
+
+                     element type requested*************************         7
+                     element type requested*************************        43
+                     number of elements in mesh*********************     54295
+                     number of nodes in mesh************************     92782
+                     large displacement analysis flagged************
+                     thermal stress analysis flagged****************
+                     load correction flagged or set*****************
+                     values stored at all integration points********
+                     tape no.for input of coordinates + connectivity         5
+                     number of state variables per integration point         2
+                     no.of different materials    2 max.no of slopes         5
+                     heat transfer analysis,  extrapolation flag, **         1
+                     gradient of scaler field printed***************
+                     number of points on shell section *************        11
+                     new style input format will be used************
+                     coupled thermal-mechanical analysis flagged****
+                     requested number of element threads************         2
+                     requested number of solver threads*************         2
+                     number of tables used *************************         8
+                     extended precision input is used ************** 
+                     Marc input version ****************************        13
+                     maximum number of boundary conditions *********        15
+                     suppress echo of list items *******************
+                     suppress echo of bc summary *******************
+                     suppress echo of nurbs data *******************
+
+
+                     end of parameters and sizing
+                    *************************************************
+                    *************************************************
+
+
+
+
+
+                                        element type         7
+
+
+                              8-node isoparametric brick                             
+
+                              stresses and strains in global directions               
+                                1=xx                                                  
+                                2=yy                                                  
+                                3=zz                                                  
+                                4=xy                                                  
+                                5=yz                                                  
+                                6=xz                                                  
+                                                                                      
+                              displacements in global directions                      
+                                1=u global x direction                                
+                                2=v global y direction                                
+                                3=w global z direction                                
+
+
+
+                                        element type        43
+
+
+                              8-node heat transfer brick                             
+
+                              1 degree of freedom per node - temperature              
+
+             allocated   16700772 words of memory due to nodal vectors
+
+
+             allocated       1376 words of memory due to tables
+
+
+             allocated       7894 words of memory due to boundary conditions
+
+
+             allocated        288 words of memory due to geometric points
+
+
+             allocated         48 words of memory due to geometric curves
+
+
+             allocated         28 words of memory due to geometric surfaces
+
+
+             allocated     371128 words of memory due to shell, user or contact transformations
+
+
+
+             workspace needed for input and stiffness assembly:         3905822
+
+
+             internal core allocation parameters
+             degrees of freedom per node (ndeg)  3
+             max. number of coordinates per node  3
+             max. nodes per element (nnodmx)  8
+             max. invariants per int. points (neqst)  1
+             max.stress components per int. point (nstrmx)   6
+             strains per integration point (ngens)  6
+             max. gradients per int. point  6
+
+
+             flag for element storage (ielsto)  0
+             element data in core
+
+             memory usage per element group
+                group   # elements     nelsto      MByte            words
+                  1        43800        1754         293          76825200
+                  2        10495        1754          70          18408230
+                ----------------------------------------------------------
+                total      54295                     363          95233430
+
+
+                              internal element variables
+
+
+
+                              internal element number         1  library code type    7
+                              number of nodes=  8
+                              stresses stored per integration point =  6
+                              direct continuum components stored =  3
+                              shear continuum components stored =  3
+                              shell/beam flag = 0
+                              curvilinear  coord. flag = 0
+                              int.points for elem. stiffness  8
+                              number of local inertia directions  3
+                              int.point for print if all points not flagged  9
+                              int. points for dist. surface loads (pressure)  4
+                              library code type =     7
+                              large disp. row counts     6    6    6   11   11   11
+                              number of nodes  8
+                              number of gradient components at each int. point  6
+                              integration points for conductivity  8
+                              integration point for print-out  9
+                              integration points for surface b.c.s  4
+
+                              internal element number         2  library code type   43
+                              number of nodes=  8
+                              stresses stored per integration point =  3
+                              direct continuum components stored =  3
+                              shear continuum components stored =  0
+                              shell/beam flag = 0
+                              curvilinear  coord. flag = 0
+                              int.points for elem. stiffness  8
+                              number of local inertia directions  1
+                              int.point for print if all points not flagged  9
+                              int. points for dist. surface loads (pressure)  4
+                              library code type =    43
+                              large disp. row counts     0    0    0    0    0    0
+                              number of nodes  8
+                              number of gradient components at each int. point  3
+                              integration points for conductivity  8
+                              integration point for print-out  9
+                              integration points for surface b.c.s  4
+
+
+
+                              residual load correction is invoked
+
+
+
+             $...................                                                                                                                                            
+
+             solver                                                                                                                                                          
+             ----------
+
+
+             CASI Iterative Solver Used - Primal pre-conditioner invoked
+
+             maximum number of conjugate gradient iterations is      1000
+             mechanical convergence tolerance is     1.000000E-08
+
+             non-mechanical convergence tolerance is     1.000000E-08
+
+             points                                                                                                                                                          
+             ----------
+
+
+             connectivity                                                                                                                                                    
+             ----------
+
+             geometry id =                   1
+             material id =                   1
+
+                meshr1,  iprnt
+                      5      1
+                elem no., type,        nodes
+
+             connectivity                                                                                                                                                    
+             ----------
+
+             geometry id =                   1
+             material id =                   2
+
+                meshr1,  iprnt
+                      5      1
+                elem no., type,        nodes
+
+             coordinates                                                                                                                                                     
+             ----------
+
+             ncrd1 ,meshr1,iprnt
+                    3         5         1
+                   node      coordinates
+
+             define              element             set                 Base_plate                                                                                          
+             ----------
+
+             from element      46119 to element      56613 by          1
+
+             define              node                set                 solid_fixed_nodes                                                                                   
+             ----------
+
+             a list of nodes given below 
+                   378       779      1180      1581      1982      2383      2784      3185      3586      3987      4388      4789      5190
+                     echo suppressed for      7114 items
+                     total number of items read:      7127
+
+             define              node                set                 Row_2_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   420       422       424       426       428       430       432       434       436       438       440       442       444
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_3_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   460       462       464       466       468       470       472       474       476       478       480       482       484
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_4_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   500       502       504       506       508       510       512       514       516       518       520       522       524
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_5_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   540       542       544       546       548       550       552       554       556       558       560       562       564
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_6_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   580       582       584       586       588       590       592       594       596       598       600       602       604
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              element             set                 Row_1                                                                                               
+             ----------
+
+             a list of elements given below 
+                   220       221       222       223       224       225       226       227       228       229       230       231       232
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_4                                                                                               
+             ----------
+
+             a list of elements given below 
+                   280       281       282       283       284       285       286       287       288       289       290       291       292
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_5                                                                                               
+             ----------
+
+             a list of elements given below 
+                   300       301       302       303       304       305       306       307       308       309       310       311       312
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_6                                                                                               
+             ----------
+
+             a list of elements given below 
+                   320       321       322       323       324       325       326       327       328       329       330       331       332
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_2_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   260       261       262       263       264       265       266       267       268       269       270       271       272
+                     echo suppressed for     35027 items
+                     total number of items read:     35040
+
+             define              element             set                 Row_3_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   280       281       282       283       284       285       286       287       288       289       290       291       292
+                     echo suppressed for     30647 items
+                     total number of items read:     30660
+
+             define              element             set                 Row_4_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   300       301       302       303       304       305       306       307       308       309       310       311       312
+                     echo suppressed for     26267 items
+                     total number of items read:     26280
+
+             define              element             set                 Row_4_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   300       301       302       303       304       305       306       307       308       309       310       311       312
+                     echo suppressed for     26267 items
+                     total number of items read:     26280
+
+             define              element             set                 Row_5_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   320       321       322       323       324       325       326       327       328       329       330       331       332
+                     echo suppressed for     21887 items
+                     total number of items read:     21900
+
+             define              node                set                 for_baseplate_removal_nodes                                                                         
+             ----------
+
+             a list of nodes given below 
+                102632    103033    103434
+
+             define              element             set                 statevar2_baseplate_elements                                                                        
+             ----------
+
+             from element      46119 to element      56613 by          1
+
+             define              node                set                 icond1_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                     1         2         3         4         5         6         7         8         9        10        11        12        13
+                     echo suppressed for     92758 items
+                     total number of items read:     92771
+
+             define              node                set                 Row_7_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   620       622       624       626       628       630       632       634       636       638       640       642       644
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_8_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   660       662       664       666       668       670       672       674       676       678       680       682       684
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_9_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                   700       702       704       706       708       710       712       714       716       718       720       722       724
+                     echo suppressed for      6347 items
+                     total number of items read:      6360
+
+             define              node                set                 Row_10_Heat_nodes                                                                                   
+             ----------
+
+             a list of nodes given below 
+                   740       742       744       746       748       750       752       754       756       758       760       762       764
+                     echo suppressed for      6406 items
+                     total number of items read:      6419
+
+             define              node                set                 Row_1_Heat_nodes                                                                                    
+             ----------
+
+             a list of nodes given below 
+                     1         2         3         4         5         6         7         8         9        10        11        12        13
+                     echo suppressed for     10044 items
+                     total number of items read:     10057
+
+             define              node                set                 Fixed_Temp_Baseplate_nodes                                                                          
+             ----------
+
+             a list of nodes given below 
+                154052    154063    154074    154085    154096    154107    154118    154129    154140    154151    154162    154173    154184
+                     echo suppressed for      2342 items
+                     total number of items read:      2355
+
+             define              element             set                 Row_2                                                                                               
+             ----------
+
+             a list of elements given below 
+                   240       241       242       243       244       245       246       247       248       249       250       251       252
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_3                                                                                               
+             ----------
+
+             a list of elements given below 
+                   260       261       262       263       264       265       266       267       268       269       270       271       272
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_7                                                                                               
+             ----------
+
+             a list of elements given below 
+                   340       341       342       343       344       345       346       347       348       349       350       351       352
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_8                                                                                               
+             ----------
+
+             a list of elements given below 
+                   360       361       362       363       364       365       366       367       368       369       370       371       372
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_9                                                                                               
+             ----------
+
+             a list of elements given below 
+                   380       381       382       383       384       385       386       387       388       389       390       391       392
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_10                                                                                              
+             ----------
+
+             a list of elements given below 
+                   400       401       402       403       404       405       406       407       408       409       410       411       412
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_6_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   340       341       342       343       344       345       346       347       348       349       350       351       352
+                     echo suppressed for     17507 items
+                     total number of items read:     17520
+
+             define              element             set                 Row_6_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   340       341       342       343       344       345       346       347       348       349       350       351       352
+                     echo suppressed for     17507 items
+                     total number of items read:     17520
+
+             define              element             set                 Row_7_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   360       361       362       363       364       365       366       367       368       369       370       371       372
+                     echo suppressed for     13127 items
+                     total number of items read:     13140
+
+             define              element             set                 Row_7_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   360       361       362       363       364       365       366       367       368       369       370       371       372
+                     echo suppressed for     13127 items
+                     total number of items read:     13140
+
+             define              element             set                 Row_8_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   380       381       382       383       384       385       386       387       388       389       390       391       392
+                     echo suppressed for      8747 items
+                     total number of items read:      8760
+
+             define              element             set                 Row_8_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   380       381       382       383       384       385       386       387       388       389       390       391       392
+                     echo suppressed for      8747 items
+                     total number of items read:      8760
+
+             define              element             set                 Row_9_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   400       401       402       403       404       405       406       407       408       409       410       411       412
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_9_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   400       401       402       403       404       405       406       407       408       409       410       411       412
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Channel                                                                                             
+             ----------
+
+             from element        220 to element      44019 by          1
+
+             define              element             set                 Row_1_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   240       241       242       243       244       245       246       247       248       249       250       251       252
+                     echo suppressed for     39407 items
+                     total number of items read:     39420
+
+             define              element             set                 Row_1_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   240       241       242       243       244       245       246       247       248       249       250       251       252
+                     echo suppressed for     39407 items
+                     total number of items read:     39420
+
+             define              element             set                 Row_2_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   260       261       262       263       264       265       266       267       268       269       270       271       272
+                     echo suppressed for     35027 items
+                     total number of items read:     35040
+
+             define              element             set                 Row_3_Heat_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   280       281       282       283       284       285       286       287       288       289       290       291       292
+                     echo suppressed for     30647 items
+                     total number of items read:     30660
+
+             define              element             set                 Row_5_Cool_elements                                                                                 
+             ----------
+
+             a list of elements given below 
+                   320       321       322       323       324       325       326       327       328       329       330       331       332
+                     echo suppressed for     21887 items
+                     total number of items read:     21900
+
+             define              element             set                 Row_6_Heat_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   340       341       342       343       344       345       346       347       348       349       350       351       352
+                     echo suppressed for     17507 items
+                     total number of items read:     17520
+
+             define              element             set                 Row_6_Cool_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   340       341       342       343       344       345       346       347       348       349       350       351       352
+                     echo suppressed for     17507 items
+                     total number of items read:     17520
+
+             define              element             set                 Row_7_Heat_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   360       361       362       363       364       365       366       367       368       369       370       371       372
+                     echo suppressed for     13127 items
+                     total number of items read:     13140
+
+             define              element             set                 Row_7_Cool_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   360       361       362       363       364       365       366       367       368       369       370       371       372
+                     echo suppressed for     13127 items
+                     total number of items read:     13140
+
+             define              element             set                 Row_8_Heat_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   380       381       382       383       384       385       386       387       388       389       390       391       392
+                     echo suppressed for      8747 items
+                     total number of items read:      8760
+
+             define              element             set                 Row_8_Cool_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   380       381       382       383       384       385       386       387       388       389       390       391       392
+                     echo suppressed for      8747 items
+                     total number of items read:      8760
+
+             define              element             set                 Row_9_Heat_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   400       401       402       403       404       405       406       407       408       409       410       411       412
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Row_9_Cool_elements                                                                                 
+             ----------
+
+             *** error - this set name has been previously defined - change the name
+             a list of elements given below 
+                   400       401       402       403       404       405       406       407       408       409       410       411       412
+                     echo suppressed for      4367 items
+                     total number of items read:      4380
+
+             define              element             set                 Baseplate_removal_2_elements                                                                        
+             ----------
+
+             from element      46119 to element      56613 by          1
+
+             attach node                                                                                                                                                     
+             ----------
+
+
+             allocated        352 words of memory due to attach options
+
+
+             nodes attached to point             1
+             a list of nodes given below 
+                     2    152296
+
+             nodes attached to point             2
+             a list of nodes given below 
+                    60    152334
+
+             nodes attached to point             3
+             a list of nodes given below 
+                    50    152344
+
+             nodes attached to point             4
+             a list of nodes given below 
+                    12    152382
+
+             nodes attached to point             5
+             a list of nodes given below 
+                    97    152393
+
+             nodes attached to point             6
+             a list of nodes given below 
+                   135    152451
+
+             nodes attached to point             7
+             a list of nodes given below 
+                   145    152441
+
+             nodes attached to point             8
+             a list of nodes given below 
+                   183    152403
+
+             nodes attached to point             9
+             a list of nodes given below 
+                   193    152489
+
+             nodes attached to point            10
+             a list of nodes given below 
+                   233    152575
+
+             nodes attached to point            11
+             a list of nodes given below 
+                   256    152552
+
+             nodes attached to point            12
+             a list of nodes given below 
+                   296    152512
+
+             nodes attached to point            13
+             a list of nodes given below 
+                151555    151598    151665    151688    152615
+
+             nodes attached to point            14
+             a list of nodes given below 
+                151565    151566    151643    151756    152683
+
+             nodes attached to point            15
+             a list of nodes given below 
+                151576    151577    151654    151736    152663
+
+             nodes attached to point            16
+             a list of nodes given below 
+                151587    151588    151686    151708    152635
+
+             isotropic                                                                                                                                                       
+             ----------
+
+
+             isotropic material  material id =               1
+              von mises  yield criteria
+              isotropic  hardening rule
+
+             material name is:       channel                 
+
+
+                 property                                     value       table id
+
+
+             Youngs modulus                              1.00000E+00              1
+             Poissons ratio                              3.20000E-01              0
+             mass density                                1.00000E+00              7
+             shear modulus                               3.78788E-01              0
+             coefficient of thermal expansion            1.00000E+00              4
+             Yield stress                                1.00000E+00              6
+             fraction contribution to kinematic hard.    0.00000E+00
+             cost per unit volume                        0.00000E+00              0
+             cost per unit mass                          0.00000E+00              0
+             thermal conductivity                        1.00000E+00              5
+             specific heat                               1.00000E+00              3
+             mass density - heat transfer                1.00000E+00              7
+             emissivity                                  0.00000E+00              0
+
+
+
+             isotropic                                                                                                                                                       
+             ----------
+
+
+             isotropic material  material id =               2
+              von mises  yield criteria
+              isotropic  hardening rule
+
+             material name is:       channel_base            
+
+
+                 property                                     value       table id
+
+
+             Youngs modulus                              1.00000E+00              8
+             Poissons ratio                              3.20000E-01              0
+             mass density                                1.00000E+00              7
+             shear modulus                               3.78788E-01              0
+             coefficient of thermal expansion            1.00000E+00              4
+             Yield stress                                1.00000E+00              6
+             fraction contribution to kinematic hard.    0.00000E+00
+             cost per unit volume                        0.00000E+00              0
+             cost per unit mass                          0.00000E+00              0
+             thermal conductivity                        1.00000E+00              5
+             specific heat                               1.00000E+00              3
+             mass density - heat transfer                1.00000E+00              7
+             emissivity                                  0.00000E+00              0
+
+
+
+             table               Youngs_Modulus                                                                                                                              
+             ----------
+
+
+             table identifier                  1
+             table name is           Youngs_Modulus                  
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    2.00000E+01         1.15000E+11
+                      2    6.88000E+02         6.07000E+10
+                      3    7.00000E+02         5.98000E+10
+                      4    9.00000E+02         2.40000E+10
+                      5    9.91000E+02         1.67000E+10
+                      6    1.26500E+03         1.10000E+10
+
+             table               Specific_Heat                                                                                                                               
+             ----------
+
+
+             table identifier                  3
+             table name is           Specific_Heat                   
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    0.00000E+00         5.17000E+02
+                      2    9.81000E+02         8.81000E+02
+                      3    9.91000E+02         7.07000E+02
+                      4    1.64000E+03         7.56000E+02
+                      5    1.65000E+03         8.29000E+02
+                      6    3.27700E+03         7.79000E+02
+
+             table               Linear_CTE                                                                                                                                  
+             ----------
+
+
+             table identifier                  4
+             table name is           Linear_CTE                      
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    0.00000E+00         8.85000E-06
+                      2    9.81000E+02         1.07200E-05
+                      3    9.91000E+02         1.07400E-05
+                      4    1.64000E+03         1.19700E-05
+                      5    1.65000E+03         2.01700E-05
+                      6    3.27700E+03         1.00000E-06
+
+             table               Thermal_Conductivity                                                                                                                        
+             ----------
+
+
+             table identifier                  5
+             table name is           Thermal_Conductivity            
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    0.00000E+00         6.18000E+00
+                      2    9.81000E+02         1.90000E+01
+                      3    9.91000E+02         1.92000E+01
+                      4    1.64000E+03         2.77000E+01
+                      5    1.65000E+03         3.34000E+01
+                      6    3.27700E+03         3.68000E+01
+
+             table               Yield_Stress                                                                                                                                
+             ----------
+
+
+             table identifier                  6
+             table name is           Yield_Stress                    
+             unit number                       5
+             number of independent var.        2
+             read function values one row at a time
+             abscissa                  
+             equiv. plastic strain      
+             number of data points             2
+               extrapolation is used if independent variable is outside range
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+
+             abscissa     equiv. plastic strain      
+
+
+                id      value 
+                 1    0.00000E+00
+                 2    1.00000E+00
+
+             abscissa     temperature                
+
+
+                id      value 
+                 1    2.00000E+01
+                 2    6.88000E+02
+                 3    7.00000E+02
+                 4    9.00000E+02
+                 5    9.91000E+02
+                 6    1.26500E+03
+
+
+                   first    variable        second   variable             function
+                      1    0.00000E+00         1    2.00000E+01         1.15100E+09
+                      2    1.00000E+00         1    2.00000E+01         2.97900E+09
+                      1    0.00000E+00         2    6.88000E+02         3.65800E+08
+                      2    1.00000E+00         2    6.88000E+02         3.65800E+08
+                      1    0.00000E+00         3    7.00000E+02         2.57600E+08
+                      2    1.00000E+00         3    7.00000E+02         2.57600E+08
+                      1    0.00000E+00         4    9.00000E+02         6.90000E+07
+                      2    1.00000E+00         4    9.00000E+02         6.90000E+07
+                      1    0.00000E+00         5    9.91000E+02         6.90000E+07
+                      2    1.00000E+00         5    9.91000E+02         6.90000E+07
+                      1    0.00000E+00         6    1.26500E+03         1.00000E+06
+                      2    1.00000E+00         6    1.26500E+03         1.00000E+06
+
+             table               Density                                                                                                                                     
+             ----------
+
+
+             table identifier                  7
+             table name is           Density                         
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             temperature                
+             number of data points             6
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    0.00000E+00         4.42100E+03
+                      2    9.81000E+02         4.29500E+03
+                      3    9.91000E+02         4.29300E+03
+                      4    1.64000E+03         4.21000E+03
+                      5    1.65000E+03         3.93500E+03
+                      6    3.27700E+03         3.73100E+03
+
+             table               Youngs_Modulus_with_State                                                                                                                   
+             ----------
+
+
+             allocated        200 words of memory due to tables
+
+
+             table identifier                  8
+             table name is           Youngs_Modulus_with_State       
+             unit number                       5
+             number of independent var.        2
+             read function values one row at a time
+             abscissa                  
+             temperature                
+             number of data points             4
+               extrapolation is used if independent variable is outside range
+             abscissa                  
+             state variable 2           
+             number of data points             2
+               extrapolation is used if independent variable is outside range
+
+             abscissa     temperature                
+
+
+                id      value 
+                 1    2.00000E+01
+                 2    7.00000E+02
+                 3    9.00000E+02
+                 4    1.26500E+03
+
+             abscissa     state variable 2           
+
+
+                id      value 
+                 1    0.00000E+00
+                 2    1.00000E+00
+
+
+                   first    variable        second   variable             function
+                      1    2.00000E+01         1    0.00000E+00         1.15000E+11
+                      2    7.00000E+02         1    0.00000E+00         5.98000E+10
+                      3    9.00000E+02         1    0.00000E+00         2.40000E+10
+                      4    1.26500E+03         1    0.00000E+00         1.10000E+10
+                      1    2.00000E+01         2    1.00000E+00         0.00000E+00
+                      2    7.00000E+02         2    1.00000E+00         0.00000E+00
+                      3    9.00000E+02         2    1.00000E+00         0.00000E+00
+                      4    1.26500E+03         2    1.00000E+00         0.00000E+00
+
+             table               statevar2_vs_time                                                                                                                           
+             ----------
+
+
+             table identifier                 10
+             table name is           statevar2_vs_time               
+             unit number                       5
+             number of independent var.        1
+             read independent variable, function pairs
+             abscissa                  
+             time                       
+             number of data points             4
+               extrapolation is used if independent variable is outside range
+                   first    variable             function
+                      1    0.00000E+00         0.00000E+00
+                      2    2.70000E+02         0.00000E+00
+                      3    2.80000E+02         9.20000E-01
+                      4    3.00000E+02         9.20000E-01
+
+             geometry                                                                                                                                                        
+             ----------
+
+
+             geometry name is:       geom1
+
+
+             geometry id =          1
+
+             geometric parameter       value
+                       1             0.00000E+00
+                       2             0.00000E+00
+                       3             0.00000E+00
+                       4             1.00000E+00
+                       5             0.00000E+00
+                       6             0.00000E+00
+                       7             0.00000E+00
+                       8             0.00000E+00
+
+             initial temp                                                                                                                                                    
+             ----------
+
+
+             read data from unit    5
+
+             name of initial  condition icond1
+
+             Initial Temperature   =      3.00000E+01  table id is        0
+
+             applied to node ids       
+
+             icond1_nodes
+
+             fixed temperature                                                                                                                                               
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition Row_1_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_1_Heat_nodes
+
+             name of boundary condition Row_2_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_2_Heat_nodes
+
+             name of boundary condition Row_3_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_3_Heat_nodes
+
+             name of boundary condition Row_4_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_4_Heat_nodes
+
+             name of boundary condition Row_5_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_5_Heat_nodes
+
+             name of boundary condition Row_6_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_6_Heat_nodes
+
+             name of boundary condition Row_7_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_7_Heat_nodes
+
+             name of boundary condition Row_8_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_8_Heat_nodes
+
+             name of boundary condition Row_9_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_9_Heat_nodes
+
+             name of boundary condition Row_10_Heat
+
+             Prescribed Temperature  for dof  1 =      1.20000E+03  table id is        0
+
+             applied to node ids       
+
+             Row_10_Heat_nodes
+
+             name of boundary condition Fixed_Temp_Baseplate
+
+             Prescribed Temperature  for dof  1 =      3.00000E+01  table id is        0
+
+             applied to node ids       
+
+             Fixed_Temp_Baseplate_nodes
+
+             fixed disp                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition solid_fixed
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  1 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  2 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             solid_fixed_nodes
+
+             name of boundary condition for_baseplate_removal
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  1 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  2 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             for_baseplate_removal_nodes
+
+             change state                                                                                                                                                    
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition statevar2_baseplate
+
+             state variable number     2
+
+             read from data     1 geometric types 
+
+             State Variable        =      1.00000E+00  table id is       10
+
+             applied to element ids    
+
+             statevar2_baseplate_elements
+
+             loadcase            job1                                                                                                                                        
+             ----------
+
+
+             activate boundary condition icond1
+
+             activate boundary condition Row_1_Heat
+
+             activate boundary condition Row_2_Heat
+
+             activate boundary condition Row_3_Heat
+
+             activate boundary condition Row_4_Heat
+
+             activate boundary condition Row_5_Heat
+
+             activate boundary condition Row_6_Heat
+
+             activate boundary condition solid_fixed
+
+             activate boundary condition for_baseplate_removal
+
+             activate boundary condition statevar2_baseplate
+
+             activate boundary condition Row_7_Heat
+
+             activate boundary condition Row_8_Heat
+
+             activate boundary condition Row_9_Heat
+
+             activate boundary condition Row_10_Heat
+
+             activate boundary condition Fixed_Temp_Baseplate
+
+             no print                                                                                                                                                        
+             ----------
+
+
+             post                                                                                                                                                            
+             ----------
+
+             number of element variables on post file:    5
+
+             binary post file will be used
+
+             initial output frequency of post file:       1
+
+             Marc 2017 style post file (default)
+
+             post variable     1 is post code    7 =                                                 
+             post variable     2 is post code    9 =                                                 
+             post variable     3 is post code   17 =                                                 
+             post variable     4 is post code  311 =                                                 
+             post variable    10 is post code  401 =                                                 
+             maximum record length on binary post file=          92782
+             approximate no. of words per increment on file=        6515416
+
+
+             parameters                                                                                                                                                      
+             ----------
+
+
+             parameters set as follows 
+
+             predictor used for stress-strain calculation    1.00000E+00
+             penalty factor for boundary conditions          1.00000E+09
+             penalty for incompressibility - r-p flow        1.00000E+02
+             penalty for incompressibility - fluid flow      1.00000E+06
+             beta parameter for Newmark operator             2.50000E-01
+             gamma parameter for Newmark operator            5.00000E-01
+             gamma1 parameter for Single-Step-Houbolt        1.50000E+00
+             gamma parameter for Single-Step-Houbolt        -5.00000E-01
+             sharp angle for sticking/separating - 2D        8.62500E+00
+             sharp angle for sticking/separating - 3D        2.00000E+01
+             initial strain rate for r-p flow                1.00000E-04
+             lowest strain rate cut-off for r-p flow         1.00000E-06
+             fraction of dilatational stress neglected       1.00000E+00
+             factor for drilling d.o.f for shells            1.00000E-04
+             factor for displacement after rezoning          1.00000E+00
+
+             universal gas constant                          8.31400E+00
+             absolute temperature offset                     2.73150E+02
+             thermal properties evaluation weight            5.00000E-01
+             surface projection factor in ssh dynamics       0.00000E+00
+             Stefan Boltzmann constant                       5.67051E-08
+             Planck's second radiation constant              1.43877E-02
+             Speed of light in vacuum                        2.99790E+08
+             Permeability of vacuum                          1.25664E-06
+             Permittivity of vacuum                          8.85419E-12
+             maximum iterative displacement component        1.00000E+30
+             initial stiffness to simulate sticking          0.00000E+00
+             minimum angle between the normal vectors of 
+             contacting segments                             1.20000E+02
+             radiation reflection cut-off                    1.00000E-03
+             angle for averaging adjacent beams (s2s)        1.60000E+02
+             stabilizer stiffness for model sections         0.00000E+00
+
+             maximum change in temperature per iteration     1.00000E+02
+             maximum rbe3 conditioning number                0.10000E+07
+             gasket initial stress stiffness factor          4.00000E-01
+
+             end option                                                                                                                                                      
+             ----------
+
+             wall time =           5.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+             wall time =           6.00
+
+
+             iterative symmetric sparse solver (CASI) is invoked for region   1
+             Limit on Maximum Opened Files for the OS was set to:  342
+
+
+             number of element groups used:         2
+
+                group     # elements     element type     material                             formulation
+
+                   1       43800             7                1                                    UAFC
+                   2       10495             7                2                                    UAFC
+ 
+               formulation:
+                     U:   updated Lagrange
+                     A:   additive plasticity
+                     F:   finite strain plasticity
+                     C:   constant dilatation
+ 
+
+
+
+               analysis ends because of         8 data errors
+
+             average number of CASI iterations =          0
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          10     2551554         1.4
+               solver: first part                   47    12400000         6.9
+               overallocation initial allocation    49    12938640         7.2
+               other:                                0      113672         0.1
+              allocated separately:
+               solver 9                              0          80         0.0
+               nodal vectors:                       64    16886378         9.3
+               defined sets:                         6     1543214         0.9
+               transformations:                      1      371128         0.2
+               kinematic boundary conditions:        0        7894         0.0
+               tables:                               0        1592         0.0
+               points, curves and surfaces:          0         372         0.0
+               mem_none:                           110    28878598        16.0
+               element storage:                    374    98057608        54.2
+               material properties:                  0        5692         0.0
+               executable and common blocks:        27     7000000         3.9
+               miscellaneous                         0         642         0.0
+               ---------------------------------------------------------------
+               total:                              690   180757064
+
+               general memory allocated:           107    28003866
+               general memory used:                 57    15065226
+
+               peak memory usage:                  690   180757064
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              5.87          5.86
+               total time for stiffness matrix assembly:          0.00          0.00
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.00          0.00
+               total time for matrix solution:                    0.00          0.00
+               total time for output:                             0.00          0.00
+               total time for miscellaneous:                      0.88          0.31
+               ---------------------------------------------------------------------
+               total time:                                        6.75          6.17
+
+
+             multi-threading overheads:                      wall time      cpu time
+
+               total time for multi-threading:                    0.00          0.00
+               (note that this time is also counted
+                in other sections)
+
+
+
+             **************************************************************************
+
+
+             
+             Data errors have been detected during data input.  Refer to
+             output for location of error.  Likely causes are misspelled
+             keywords, mistyped lines or invalid input options.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2018.0.0 GA
+
+                                        Exit number   13
+
