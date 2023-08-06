@@ -1,0 +1,16 @@
+style=1
+information summary of job:  test2+_Sweep_job1
+version:  Marc 2018.0.0 GA
+date:     Mon Dec 06 10:07:07 2021
+
+    case   inc  cycl  sepa cut   cycl   separ   cut  rmesh time step   total time        displ-mag              temperature             
+      #     #     #     #   #      #      #      #     #      of           of         min         max         min         max    
+               |--of the inc--|------of the analysis------| the inc      the job
+
+      0      0    1    0    0       1       0     0     0  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  3.0000E+01  3.0000E+01
+      1      1    4    0    0       5       0     0     0  1.0000E-02  1.0000E-02  0.0000E+00  8.7361E-05 -1.8494E+02  1.2000E+03
+      2      2   11    0    0      16       0     0     0  1.0000E-02  1.0000E-02  0.0000E+00  8.7361E-05 -1.5626E+02  1.2144E+03
+
+ Job ends with exit number :    3015
+            total wall time:         36.90
+            total cpu  time:         46.11
