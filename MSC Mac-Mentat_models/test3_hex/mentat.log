@@ -1,0 +1,790 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud"
+File has been written by Mentat 2018.0.0.
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for reading.
+Model c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3 opened.
+Command > *fill_view
+Command > *clear_mesh
+Command > *clear_curve_divisions
+Enter curve list : all_existing
+Enter curve list : *point_display_on *redraw
+Enter curve list : *add_points
+Enter point coordinates (X) : 0 2.8 0
+Point 28 added.
+Enter point coordinates (X) : 9.4 2.8 0
+Point 29 added.
+Enter point coordinates (X) : 9.4 -3.8 0
+Point 30 added.
+Enter point coordinates (X) : 0 -3.8 0
+Point 31 added.
+Enter point coordinates (X) : *set_duplicate_trans_from_to
+Enter duplicate translation from coordinates : *set_duplicate_translation z 50
+Command > *duplicate_curves
+Enter duplicate curve list : *duplicate_points
+Enter duplicate point list :  1 2 3 4 16 17 18 19 20 21 22 23 28 29 30 31
+Enter duplicate point list : *duplicate_reset
+Enter duplicate point list : *set_duplicate_translation z 50
+Command > *duplicate_combined
+Enter combined duplicate entity list : *model_orientation_iso3
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *reset_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *model_orientation_front
+Enter combined duplicate entity list : *set_duplicate_combined elements off
+Enter combined duplicate entity type : *set_duplicate_combined elements on
+Enter combined duplicate entity type : *duplicate_curves
+Enter duplicate curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter duplicate curve list : *duplicate_points
+Enter duplicate point list :  1 2 3 4 16 17 18 19 20 21 22 23 28 29 30 31
+Enter duplicate point list : *duplicate_combined
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *model_orientation_front
+Enter combined duplicate entity list : *duplicate_curves
+Enter duplicate curve list : *duplicate_curves
+Enter duplicate curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter duplicate curve list : *duplicate_combined
+Enter combined duplicate entity list : *model_orientation_front
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *model_orientation_front
+Enter combined duplicate entity list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter combined duplicate entity list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter combined duplicate entity list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter combined duplicate entity list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter combined duplicate entity list :  p:1 p:2 p:3 p:4 p:16 p:17 p:18 p:19 p:20 p:21 p:22 p:23 p:28 p:29 p:30 p:31 c:1
+Enter combined duplicate entity list :  c:2 c:3 c:4 c:15 c:16 c:17 c:18 c:19 c:20 c:21 c:22
+Enter combined duplicate entity list : *duplicate_combined
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *fill_view
+Enter combined duplicate entity list : *model_orientation_front
+Enter combined duplicate entity list : *set_duplicate_translation z 5
+Command > *duplicate_curves
+Enter duplicate curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter duplicate curve list : # | End of List
+Enter duplicate curve list : *model_orientation_iso1
+Enter duplicate curve list : *undo
+Command > *model_orientation_front
+Command > *set_duplicate_translation z 50
+Command > *duplicate_curves
+Enter duplicate curve list :  1 2 3 4 15 16 17 18 19 20 21 22
+Enter duplicate curve list : # | End of List
+Enter duplicate curve list : *model_orientation_front
+Enter duplicate curve list : *model_orientation_iso1
+Enter duplicate curve list : *model_orientation_front
+Enter duplicate curve list :  35
+Enter duplicate curve list : *distance
+Enter first xyz coordinates : *model_orientation_iso1
+Enter first xyz coordinates : *undo
+Command > *model_orientation_front
+Command > *duplicate_combined
+Enter combined duplicate entity list :  p:1 p:2 p:3 p:4 p:16 p:17 p:18 p:19 p:20 p:21 p:22 p:23 p:28 p:29 p:30 p:31 c:1
+Enter combined duplicate entity list :  c:2 c:3 c:4 c:15 c:16 c:17 c:18 c:19 c:20 c:21 c:22
+Enter combined duplicate entity list : # | End of List
+Enter combined duplicate entity list : *model_orientation_iso1
+Enter combined duplicate entity list : *set_element_class hex8
+Command > *add_elements
+Enter element node (1) : *dynamic_model_on
+Enter element node (1) : *dynamic_model_off
+Enter element node (1) : *add_elements
+Enter element node (1) :  node(  9.400000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  9.400000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 1 added.
+Enter element node (2) :  node(  9.900000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (2) :  node(  9.900000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 2 added.
+Enter element node (3) :  node(  9.900000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (3) :  node(  9.900000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 3 added.
+Enter element node (4) :  node(  9.400000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  9.400000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 4 added.
+Enter element node (5) :  node(  9.400000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  9.400000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Node 5 added.
+Enter element node (6) :  node(  9.900000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (6) :  node(  9.900000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Node 6 added.
+Enter element node (7) :  node(  9.900000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  9.900000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Node 7 added.
+Enter element node (8) :  node(  9.400000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  9.400000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Node 8 added.
+Element 1 added.
+Enter element node (1) : *undo
+Command > *model_orientation_front
+Command > *remove_curves
+Enter remove curve list :  23
+Enter remove curve list :  26
+Enter remove curve list :  24
+Enter remove curve list :  25
+Enter remove curve list : # | End of List
+Enter remove curve list : *remove_points
+Enter remove point list :  24
+Enter remove point list : # | End of List
+Enter remove point list :  25
+Enter remove point list : # | End of List
+Enter remove point list :  26
+Enter remove point list : # | End of List
+Enter remove point list :  27
+Enter remove point list : # | End of List
+Enter remove point list : *model_orientation_iso1
+Enter remove point list : *fill_view
+Enter remove point list : *zoom_in
+Enter remove point list : *zoom_in
+Enter remove point list : *zoom_in
+Enter remove point list : *zoom_in
+Enter remove point list : *add_elements
+Enter element node (1) :  node(  9.400000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  9.400000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 9 added.
+Enter element node (2) :  node(  9.900000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (2) :  node(  9.900000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 10 added.
+Enter element node (3) :  node(  9.900000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (3) :  node(  9.900000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 11 added.
+Enter element node (4) :  node(  9.400000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  9.400000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 12 added.
+Enter element node (5) :  node(  9.400000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  9.400000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Node 13 added.
+Enter element node (6) :  node(  9.900000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (6) :  node(  9.900000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Node 14 added.
+Enter element node (7) :  node(  9.900000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  9.900000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Node 15 added.
+Enter element node (8) :  node(  9.400000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  9.400000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Node 16 added.
+Element 1 added.
+Enter element node (1) : *sub_uvwdiv u 1
+Command > *sub_uvwdiv v 10
+Command > *sub_uvwdiv w 50
+Command > *subdivide_elements
+Enter subdivide element list :  1
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *undo
+Command > *sub_uvwdiv v 50
+Command > *sub_uvwdiv w 10
+Command > *subdivide_elements
+Enter subdivide element list :  1
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *add_elements
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 1139 added.
+Enter element node (2) :  17
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  567
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 1140 added.
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Node 1141 added.
+Enter element node (6) :  18
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *undo
+Command > *undo
+Command > *add_elements
+Enter element node (1) : *add_elements
+Enter element node (1) : *dynamic_model_off
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 1142 added.
+Enter element node (2) :  17
+Enter element node (3) : *fill_view
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  567
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 1143 added.
+Enter element node (5) : *dynamic_model_on
+Enter element node (5) : *model_orientation_front
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) : *dynamic_model_off
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Node 1144 added.
+Enter element node (6) : *dynamic_model_on
+Enter element node (6) : *dynamic_model_off
+Enter element node (6) :  18
+Enter element node (7) : *distance
+Enter first xyz coordinates : *add_elements
+Enter element node (1) :  1142
+Enter element node (2) :  17
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  567
+Enter element node (4) :  1143
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) :  1144
+Enter element node (6) : *dynamic_model_on
+Enter element node (6) : *zoom_box
+Enter element node (6) : *zoom_box(1,0.366291,0.765739,0.416058,0.850659)
+Enter element node (6) : *dynamic_model_off
+Enter element node (6) :  node(  9.400000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Enter element node (6) :  node(  9.400000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Node 1145 added.
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.555408,0.474378,0.606503,0.573939)
+Enter element node (7) : *dynamic_model_off
+Enter element node (7) :  node(  9.400000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  9.400000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Node 1146 added.
+Enter element node (8) : *dynamic_model_on
+Enter element node (8) : *model_orientation_iso1
+Enter element node (8) : *dynamic_model_off
+Enter element node (8) :  node(  0.000000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  0.000000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Node 1147 added.
+Element 502 added.
+Enter element node (1) : # | End of List
+Enter element node (1) : *undo
+Command > *sweep_all
+Deleting 19 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *set_sweep_tolerance 0.01
+Command > *sweep_all
+Deleting 0 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *model_orientation_iso1
+Command > *add_elements
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  0.000000000000e+00, -3.800000000000e+00,  5.000000000000e+01)
+Node 1148 added.
+Enter element node (2) :  1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  4
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  0.000000000000e+00, -3.800000000000e+00,  0.000000000000e+00)
+Node 1149 added.
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  0.000000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Node 1150 added.
+Enter element node (6) : *dynamic_model_on
+Enter element node (6) : *zoom_box
+Enter element node (6) : *zoom_box(1,0.349038,0.762811,0.435302,0.865300)
+Enter element node (6) : *dynamic_model_off
+Enter element node (6) :  node(  9.400000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Enter element node (6) :  node(  9.400000000000e+00, -3.300000000000e+00,  5.000000000000e+01)
+Node 1151 added.
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) : *model_orientation_iso3
+Enter element node (7) : *model_orientation_iso2
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.611148,0.758419,0.671533,0.812592)
+Enter element node (7) : *dynamic_model_off
+Enter element node (7) :  node(  9.400000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  9.400000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Node 1152 added.
+Enter element node (8) : *dynamic_model_on
+Enter element node (8) : *dynamic_model_off
+Enter element node (8) :  node(  0.000000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  0.000000000000e+00, -3.300000000000e+00,  0.000000000000e+00)
+Node 1153 added.
+Element 502 added.
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *model_orientation_front
+Enter element node (1) : *model_orientation_back
+Enter element node (1) : *model_orientation_left
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *subdivide_elements
+Enter subdivide element list :  502
+Enter subdivide element list : *sub_uvwdiv w 1
+Command > *sub_uvwdiv u 15
+Command > *subdivide_elements
+Enter subdivide element list :  502
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *add_elements
+Enter element node (1) :  node(  0.000000000000e+00, -1.000000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  0.000000000000e+00, -1.000000000000e+00,  5.000000000000e+01)
+Node 2786 added.
+Enter element node (2) : *zoom_box
+Enter element node (2) : *zoom_box(1,0.366954,0.705710,0.395488,0.773060)
+Enter element node (2) :  node(  9.400000000000e+00, -1.000000000000e+00,  5.000000000000e+01)
+Enter element node (2) :  node(  9.400000000000e+00, -1.000000000000e+00,  5.000000000000e+01)
+Node 2787 added.
+Enter element node (3) : *model_orientation_front
+Enter element node (3) : *model_orientation_back
+Enter element node (3) : *model_orientation_front
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *zoom_box
+Enter element node (3) : *zoom_box(1,0.520902,0.326501,0.545455,0.380673)
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  node(  9.400000000000e+00, -1.000000000000e+00,  0.000000000000e+00)
+Enter element node (3) :  node(  9.400000000000e+00, -1.000000000000e+00,  0.000000000000e+00)
+Node 2788 added.
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) :  node(  0.000000000000e+00, -1.000000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  0.000000000000e+00, -1.000000000000e+00,  0.000000000000e+00)
+Node 2789 added.
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) :  node(  0.000000000000e+00,  0.000000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  0.000000000000e+00,  0.000000000000e+00,  5.000000000000e+01)
+Node 2790 added.
+Enter element node (6) : *zoom_box
+Enter element node (6) : *zoom_box(1,0.373590,0.710102,0.392833,0.767204)
+Enter element node (6) :  node(  9.400000000000e+00,  0.000000000000e+00,  5.000000000000e+01)
+Enter element node (6) :  node(  9.400000000000e+00,  0.000000000000e+00,  5.000000000000e+01)
+Node 2791 added.
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.596549,0.461201,0.626410,0.506589)
+Enter element node (7) : *dynamic_model_off
+Enter element node (7) :  node(  9.400000000000e+00,  0.000000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  9.400000000000e+00,  0.000000000000e+00,  0.000000000000e+00)
+Node 2792 added.
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) :  node(  0.000000000000e+00,  0.000000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  0.000000000000e+00,  0.000000000000e+00,  0.000000000000e+00)
+Node 2793 added.
+Element 1253 added.
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *sub_uvwdiv w 2
+Command > *subdivide_elements
+Enter subdivide element list :  1253
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *sweep_all
+Deleting 122 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *add_elements
+Enter element node (1) :  node(  0.000000000000e+00,  2.300000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node(  0.000000000000e+00,  2.300000000000e+00,  5.000000000000e+01)
+Node 5241 added.
+Enter element node (2) : *zoom_box
+Enter element node (2) : *zoom_box(1,0.368945,0.633968,0.396151,0.695461)
+Enter element node (2) :  node(  9.400000000000e+00,  2.300000000000e+00,  5.000000000000e+01)
+Enter element node (2) :  node(  9.400000000000e+00,  2.300000000000e+00,  5.000000000000e+01)
+Node 5242 added.
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *zoom_box
+Enter element node (3) : *zoom_box(1,0.631055,0.281113,0.676178,0.366032)
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  node(  9.400000000000e+00,  2.300000000000e+00,  0.000000000000e+00)
+Enter element node (3) :  node(  9.400000000000e+00,  2.300000000000e+00,  0.000000000000e+00)
+Node 5243 added.
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) :  node(  0.000000000000e+00,  2.300000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node(  0.000000000000e+00,  2.300000000000e+00,  0.000000000000e+00)
+Node 5244 added.
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) :  5241
+Enter element node (6) : *edit_elements
+Enter edit element : *add_elements
+Enter element node (1) :  5241
+Enter element node (2) : *zoom_box
+Enter element node (2) : *zoom_box(1,0.369608,0.635432,0.401460,0.691069)
+Enter element node (2) :  5242
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *rot_scale_center_loc_mspace
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) : *zoom_box
+Enter element node (3) : *zoom_box(1,0.504313,0.336750,0.549436,0.423133)
+Enter element node (3) :  5243
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) : *zoom_out
+Enter element node (4) :  5244
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) : *zoom_box
+Enter element node (5) : *zoom_box(1,0.260119,0.566618,0.303251,0.639824)
+Enter element node (5) :  node(  0.000000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node(  0.000000000000e+00,  2.800000000000e+00,  5.000000000000e+01)
+Node 5245 added.
+Enter element node (6) : *model_orientation_iso1
+Enter element node (6) : *zoom_box
+Enter element node (6) : *zoom_box(1,0.373590,0.636896,0.394161,0.686676)
+Enter element node (6) :  5
+Enter element node (7) : *fill_view
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.517585,0.366032,0.541473,0.430454)
+Enter element node (7) : *dynamic_model_off
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.455873,0.401171,0.574652,0.604685)
+Enter element node (7) :  8
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) : *zoom_out
+Enter element node (8) :  node(  0.000000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node(  0.000000000000e+00,  2.800000000000e+00,  0.000000000000e+00)
+Node 5246 added.
+Element 2754 added.
+Enter element node (1) : *fill_view
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *subdivide_elements
+Enter subdivide element list : *sub_uvwdiv w 1
+Command > *subdivide_elements
+Enter subdivide element list :  2754
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *dynamic_model_on
+Enter subdivide element list : *model_orientation_iso1
+Enter subdivide element list : *sweep_all
+Deleting 57 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *add_elements
+Enter element node (1) : *zoom_box
+Enter element node (1) : *zoom_box(1,0.276709,0.748170,0.295952,0.784773)
+Enter element node (1) : *dynamic_model_off
+Enter element node (1) :  node( -5.000000000000e-01, -3.800000000000e+00,  5.000000000000e+01)
+Enter element node (1) :  node( -5.000000000000e-01, -3.800000000000e+00,  5.000000000000e+01)
+Node 6878 added.
+Enter element node (2) :  1139
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *zoom_box
+Enter element node (3) : *zoom_box(1,0.633046,0.282577,0.656271,0.345534)
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  1140
+Enter element node (4) :  node( -5.000000000000e-01, -3.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node( -5.000000000000e-01, -3.800000000000e+00,  0.000000000000e+00)
+Node 6879 added.
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) : *zoom_box
+Enter element node (5) : *zoom_box(1,0.255474,0.557833,0.310551,0.650073)
+Enter element node (5) :  node( -5.000000000000e-01,  2.800000000000e+00,  5.000000000000e+01)
+Enter element node (5) :  node( -5.000000000000e-01,  2.800000000000e+00,  5.000000000000e+01)
+Node 6880 added.
+Enter element node (6) :  5245
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) :  \5245
+Enter element node (6) :  \1140
+Enter element node (5) : *dynamic_model_on
+Enter element node (5) : *zoom_box
+Enter element node (5) : *zoom_box(1,0.584605,0.206442,0.601194,0.248902)
+Enter element node (5) : *dynamic_model_off
+Enter element node (5) :  5246
+Enter element node (6) :  node( -5.000000000000e-01,  2.800000000000e+00,  0.000000000000e+00)
+Enter element node (6) :  node( -5.000000000000e-01,  2.800000000000e+00,  0.000000000000e+00)
+Node 6881 added.
+Enter element node (7) : *distance
+Enter first xyz coordinates : *add_elements
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *zoom_box
+Enter element node (1) : *zoom_box(1,0.267419,0.739385,0.293298,0.778917)
+Enter element node (1) :  6878
+Enter element node (2) :  1139
+Enter element node (3) : *model_orientation_iso1
+Enter element node (3) : *dynamic_model_on
+Enter element node (3) : *zoom_box
+Enter element node (3) : *zoom_box(1,0.644990,0.254758,0.686795,0.311859)
+Enter element node (3) : *dynamic_model_off
+Enter element node (3) :  1140
+Enter element node (4) :  6879
+Enter element node (5) : *model_orientation_iso1
+Enter element node (5) : *zoom_box
+Enter element node (5) : *zoom_box(1,0.262774,0.562225,0.319841,0.664714)
+Enter element node (5) :  6880
+Enter element node (6) :  5245
+Enter element node (7) : *model_orientation_iso1
+Enter element node (7) : *dynamic_model_on
+Enter element node (7) : *zoom_box
+Enter element node (7) : *zoom_box(1,0.578633,0.210835,0.597877,0.266471)
+Enter element node (7) : *dynamic_model_off
+Enter element node (7) :  5246
+Enter element node (8) :  6881
+Element 3505 added.
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *sub_uvwdiv u 1
+Command > *sub_uvwdiv w 10
+Command > *subdivide_elements
+Enter subdivide element list :  3505
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *dynamic_model_on
+Enter subdivide element list : *node_display_on *redraw
+Enter subdivide element list : *model_orientation_iso1
+Enter subdivide element list : *node_display_off *redraw
+Enter subdivide element list : *sweep_all
+Deleting 157 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *model_orientation_front
+Command > *add_points
+Enter point coordinates (X) : -4.5 7.8 0
+Point 48 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : 13.5 7.8 0
+Point 49 added.
+Enter point coordinates (X) : *remove_points
+Enter remove point list : *dynamic_model_off
+Enter remove point list :  48
+Enter remove point list : # | End of List
+Enter remove point list :  49
+Enter remove point list : # | End of List
+Enter remove point list : *add_points
+Enter point coordinates (X) : 13.9 -7.8-4.5 6.8 0
+Point 49 added.
+Enter point coordinates (Y) : *point_display_off *redraw
+Enter point coordinates (Y) : *point_display_on *redraw
+Enter point coordinates (Y) : *undo
+Command > *add_points
+Enter point coordinates (X) : -4.5 6.8 0
+Point 48 added.
+Enter point coordinates (X) : 13.9 6.8 0
+Point 49 added.
+Enter point coordinates (X) : 13.9 -7.8 0
+Point 50 added.
+Enter point coordinates (X) : -4.5 -7.8 0
+Point 51 added.
+Enter point coordinates (X) : *fill_view
+Enter point coordinates (X) : *add_curves
+Enter line points :  48
+Enter line points :  49
+Curve 39 added.
+Enter line points :  50
+Enter line points : *remove_curves
+Enter remove curve list : *add_curves
+Enter line points :  49
+Enter line points :  50
+Curve 40 added.
+Enter line points :  50
+Enter line points :  51
+Curve 41 added.
+Enter line points :  51
+Enter line points :  48
+Curve 42 added.
+Enter line points : *set_duplicate_translation z 6
+Command > *duplicate_curves
+Enter duplicate curve list :  42
+Enter duplicate curve list :  39
+Enter duplicate curve list :  40
+Enter duplicate curve list :  41
+Enter duplicate curve list : # | End of List
+Enter duplicate curve list : *model_orientation_iso1
+Enter duplicate curve list : *add_elements
+Enter element node (1) : *model_orientation_front
+Enter element node (1) :  node( -4.500000000000e+00, -7.800000000000e+00,  6.000000000000e+00)
+Enter element node (1) :  node( -4.500000000000e+00, -7.800000000000e+00,  6.000000000000e+00)
+Node 8003 added.
+Enter element node (2) : *distance
+Enter first xyz coordinates : *model_orientation_iso1
+Enter first xyz coordinates : *add_elements
+Enter element node (1) : *dynamic_model_on
+Enter element node (1) : *dynamic_model_off
+Enter element node (1) : *dynamic_model_on
+Enter element node (1) : *dynamic_model_off
+Enter element node (1) : *add_elements
+Enter element node (1) :  8003
+Enter element node (2) :  node(  1.390000000000e+01, -7.800000000000e+00,  6.000000000000e+00)
+Enter element node (2) :  node(  1.390000000000e+01, -7.800000000000e+00,  6.000000000000e+00)
+Node 8004 added.
+Enter element node (3) :  node(  1.390000000000e+01, -7.800000000000e+00,  0.000000000000e+00)
+Enter element node (3) :  node(  1.390000000000e+01, -7.800000000000e+00,  0.000000000000e+00)
+Node 8005 added.
+Enter element node (4) :  node( -4.500000000000e+00, -7.800000000000e+00,  0.000000000000e+00)
+Enter element node (4) :  node( -4.500000000000e+00, -7.800000000000e+00,  0.000000000000e+00)
+Node 8006 added.
+Enter element node (5) :  node( -4.500000000000e+00,  6.800000000000e+00,  6.000000000000e+00)
+Enter element node (5) :  node( -4.500000000000e+00,  6.800000000000e+00,  6.000000000000e+00)
+Node 8007 added.
+Enter element node (6) :  node(  1.390000000000e+01,  6.800000000000e+00,  6.000000000000e+00)
+Enter element node (6) :  node(  1.390000000000e+01,  6.800000000000e+00,  6.000000000000e+00)
+Node 8008 added.
+Enter element node (7) :  node(  1.390000000000e+01,  6.800000000000e+00,  0.000000000000e+00)
+Enter element node (7) :  node(  1.390000000000e+01,  6.800000000000e+00,  0.000000000000e+00)
+Node 8009 added.
+Enter element node (8) :  node( -4.500000000000e+00,  6.800000000000e+00,  0.000000000000e+00)
+Enter element node (8) :  node( -4.500000000000e+00,  6.800000000000e+00,  0.000000000000e+00)
+Node 8010 added.
+Element 4006 added.
+Enter element node (1) : *model_orientation_iso1
+Enter element node (1) : *sub_uvwdiv v 3
+Command > *sub_uvwdiv u 9
+Command > *sub_uvwdiv w 7
+Command > *subdivide_elements
+Enter subdivide element list :  4006
+Enter subdivide element list : # | End of List
+Enter subdivide element list : *model_orientation_iso3
+Enter subdivide element list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter subdivide element list : *save_model
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
+Enter subdivide element list : *identify_types *redraw
+Enter subdivide element list : *identify_classes *redraw
+Enter subdivide element list : *identify_types *redraw
+Enter subdivide element list : *identify_classes *redraw
+Enter subdivide element list : *sweep_all
+Deleting 8 duplicate nodes !
+Deleting 0 collapsed elements !
+Deleting 0 duplicate elements!
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate points !
+Deleting 0 collapsed curves !
+Deleting 0 collapsed surfaces !
+Deleting 0 duplicate curves!
+Command > *identify_types *redraw
+Command > *save_model *quit yes
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.mud opened for writing.
+Model saved to c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test3\test3.
