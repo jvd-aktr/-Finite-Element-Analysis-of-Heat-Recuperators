@@ -1,0 +1,38 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2+\test2+.mud"
+File has been written by Mentat 2018.0.0.
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2+\test2+.mud opened for reading.
+Model c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\test2+\test2+ opened.
+Command > *fill_view
+Command > *model_orientation_iso3
+Command > *set_save_formatted off *save_as_model "..\test1+_Sweep\test1+_Sweep.mud" yes
+Model saved to ..\test1+_Sweep\test1+_Sweep.mud.
+Command > *sweep_nodes
+Enter sweep node list : all_existing
+Deleting 5752 duplicate nodes !
+Deleting 0 collapsed elements !
+Enter sweep node list : # | End of List
+Enter sweep node list : *sweep_elements
+Enter sweep element list : *sweep_elements
+Enter sweep element list : all_existing
+Deleting 60 duplicate elements!
+Enter sweep element list : *save_model
+Model file ..\test1+_Sweep\test1+_Sweep.mud opened for writing.
+Model saved to ..\test1+_Sweep\test1+_Sweep.
+Enter sweep element list : *edit_job job1
+Enter edit job : 
+Command > *check_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+INFO: Job check complete.
+Command > *update_job
+Command > *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class hex8.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+"C:\MSC~1.SOF\Marc\20180~1.0\MENTAT~1\bin\submit1.bat" marc default 1 1 - - test1+_Sweep_job1 - - - - - 0 n n - - 0 2 2 0 - -
+Job job1 submitted!
+Command > *save_model *quit yes
+Model file ..\test1+_Sweep\test1+_Sweep.mud opened for writing.
+Model saved to ..\test1+_Sweep\test1+_Sweep.

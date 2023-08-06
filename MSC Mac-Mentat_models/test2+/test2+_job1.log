@@ -1,0 +1,5750 @@
+ 
+Program name         : marc  
+Job ID               : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test2+\test2+_job1   
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Auto restart         : 0  
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads : 2 
+Solver processes     :  
+Solver threads       : 2 
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test2+ 
+Scratch directory    : C:\Users\akhta\OneDrive - New Mexico State University\MAE_NMSU\2021\Fall2021\ME518_FEA\Project\Mac-Mentat\test2+ 
+Default bin directory: C:\MSC.Software\Marc\2018.0.0\marc2018\bin\win64i8 
+Material database    : C:\MSC.Software\Marc\2018.0.0\marc2018\AF_flowmat\  
+  
+ 
+Sun 12/05/2021 
+03:12 PM
+ 
+ Marc test2+_job1 begins execution
+
+     (c) COPYRIGHT 2018 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    2
+ Requested number of solver threads                      =    2
+
+
+ VERSION: Marc 2018.0.0 GA, build 581209 (2018/07/02)
+
+
+
+     Date: Sun Dec 05 15:12:21 2021
+
+                              Marc execution begins
+ Date:          Sun Dec  5 15:12:22 2021
+ MSC Id:        00059a3c7a00 (ethernet) (Intel)
+ Hostname:      LAPTOP-PI1O3UB7 (user akhta, display LAPTOP-PI1O3UB7)
+ License files: 27500@twister2.nmsu.edu
+ CEID:          5684B502-68C8898E
+ User:          akhta
+ Display:       LAPTOP-PI1O3UB7
+ LAPI Version:  LAPI 10.4.5 x64_n6 :: Build 3752 20180608181726Z (FLEXlm 11.13.1.0)
+Acquired 1 license for Marc from license server on host twister2.nmsu.edu
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =     12130 MByte
+
+             general memory increasing from      25 MByte to     106 MByte
+
+   MSC Customer Entitlement ID
+        5684B502-68C8898E
+
+Acquired 2 licenses for Marc Parallel from license server on host twister2.nmsu.edu
+             wall time =           9.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+             wall time =          11.00
+
+
+             start of assembly     cycle number is     0
+             wall time =          11.00
+
+
+
+             start of matrix solution
+             wall time =          13.00
+
+             CASI Assembly  Completed
+             wall time =          14.00
+
+             CASI Preconditioner Completed
+             wall time =          15.00
+
+
+
+             end of matrix solution
+             wall time =          15.00
+
+
+             total  memory =          958  MByte
+
+             e n d   o f   i n c r e m e n t       0
+             wall time =          20.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+
+
+
+             s t a r t   o f   i n c r e m e n t       1
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          20.00
+
+
+
+             start of matrix solution
+             wall time =          20.00
+
+             CASI Assembly  Completed
+             wall time =          21.00
+
+             CASI Preconditioner Completed
+             wall time =          21.00
+
+
+
+             end of matrix solution
+             wall time =          21.00
+
+
+
+             maximum error between temperature estimate and solution is  9.3139E+02 at node     133514
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          21.00
+
+
+
+             start of matrix solution
+             wall time =          22.00
+
+             CASI Assembly  Completed
+             wall time =          22.00
+
+             CASI Preconditioner Completed
+             wall time =          22.00
+
+
+
+             end of matrix solution
+             wall time =          22.00
+
+
+
+             maximum error between temperature estimate and solution is  1.9442E+02 at node     134715
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =          22.00
+
+
+
+             start of matrix solution
+             wall time =          23.00
+
+             CASI Assembly  Completed
+             wall time =          23.00
+
+             CASI Preconditioner Completed
+             wall time =          23.00
+
+
+
+             end of matrix solution
+             wall time =          23.00
+
+
+
+             maximum error between temperature estimate and solution is  8.4566E+00 at node     148752
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.011E+03 at node     130306
+
+             this is  1.011E+03 percent of change allowed on control option
+
+
+             automatic time stepping is switched off
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          23.00
+
+
+
+             start of matrix solution
+             wall time =          24.00
+
+             CASI Assembly  Completed
+             wall time =          25.00
+
+             CASI Preconditioner Completed
+             wall time =          25.00
+
+
+
+             end of matrix solution
+             wall time =          27.00
+
+
+             maximum residual force  at node     93813 degree of freedom  1 is equal to    6.278E+00
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.266E+02
+             residual convergence ratio    4.958E-02
+
+             total  memory =         1297  MByte
+
+             e n d   o f   i n c r e m e n t       1
+             wall time =          29.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+
+
+
+             s t a r t   o f   i n c r e m e n t       2
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          30.00
+
+
+
+             start of matrix solution
+             wall time =          30.00
+
+             CASI Assembly  Completed
+             wall time =          30.00
+
+             CASI Preconditioner Completed
+             wall time =          30.00
+
+
+
+             end of matrix solution
+             wall time =          30.00
+
+
+
+             maximum error between temperature estimate and solution is  1.1072E+03 at node     164008
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          30.00
+
+
+
+             start of matrix solution
+             wall time =          31.00
+
+             CASI Assembly  Completed
+             wall time =          31.00
+
+             CASI Preconditioner Completed
+             wall time =          31.00
+
+
+
+             end of matrix solution
+             wall time =          31.00
+
+
+
+             maximum error between temperature estimate and solution is  3.8360E+01 at node     172469
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =          31.00
+
+
+
+             start of matrix solution
+             wall time =          32.00
+
+             CASI Assembly  Completed
+             wall time =          32.00
+
+             CASI Preconditioner Completed
+             wall time =          32.00
+
+
+
+             end of matrix solution
+             wall time =          32.00
+
+
+
+             maximum error between temperature estimate and solution is  1.2122E+00 at node     179507
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.107E+03 at node     163997
+
+             this is  1.107E+03 percent of change allowed on control option
+
+             step will be recycled with time increment of  2.168E-02
+
+             start of assembly     cycle number is     0
+             wall time =          32.00
+
+
+
+             start of matrix solution
+             wall time =          32.00
+
+             CASI Assembly  Completed
+             wall time =          33.00
+
+             CASI Preconditioner Completed
+             wall time =          33.00
+
+
+
+             end of matrix solution
+             wall time =          33.00
+
+
+
+             maximum error between temperature estimate and solution is  7.6822E+02 at node     163161
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          33.00
+
+
+
+             start of matrix solution
+             wall time =          33.00
+
+             CASI Assembly  Completed
+             wall time =          34.00
+
+             CASI Preconditioner Completed
+             wall time =          34.00
+
+
+
+             end of matrix solution
+             wall time =          34.00
+
+
+
+             maximum error between temperature estimate and solution is  2.2063E+01 at node     164351
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.548E+02 at node     163161
+
+             this is  8.548E+02 percent of change allowed on control option
+
+             step will be recycled with time increment of  2.029E-03
+
+             start of assembly     cycle number is     0
+             wall time =          34.00
+
+
+
+             start of matrix solution
+             wall time =          34.00
+
+             CASI Assembly  Completed
+             wall time =          35.00
+
+             CASI Preconditioner Completed
+             wall time =          35.00
+
+
+
+             end of matrix solution
+             wall time =          35.00
+
+
+
+             maximum error between temperature estimate and solution is  2.9081E+02 at node     163161
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          35.00
+
+
+
+             start of matrix solution
+             wall time =          35.00
+
+             CASI Assembly  Completed
+             wall time =          35.00
+
+             CASI Preconditioner Completed
+             wall time =          35.00
+
+
+
+             end of matrix solution
+             wall time =          35.00
+
+
+
+             maximum error between temperature estimate and solution is  3.2573E+00 at node     178836
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.740E+02 at node     163161
+
+             this is  3.740E+02 percent of change allowed on control option
+
+             step will be recycled with time increment of  4.340E-04
+
+             start of assembly     cycle number is     0
+             wall time =          35.00
+
+
+
+             start of matrix solution
+             wall time =          36.00
+
+             CASI Assembly  Completed
+             wall time =          36.00
+
+             CASI Preconditioner Completed
+             wall time =          36.00
+
+
+
+             end of matrix solution
+             wall time =          36.00
+
+
+
+             maximum error between temperature estimate and solution is  5.8691E+01 at node     178836
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          36.00
+
+
+
+             start of matrix solution
+             wall time =          37.00
+
+             CASI Assembly  Completed
+             wall time =          37.00
+
+             CASI Preconditioner Completed
+             wall time =          37.00
+
+
+
+             end of matrix solution
+             wall time =          37.00
+
+
+
+             maximum error between temperature estimate and solution is  3.6370E-01 at node     178836
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.319E+02 at node     163161
+
+             this is  1.319E+02 percent of change allowed on control option
+
+             time increment will be set to min. time step
+
+             step will be recycled with time increment of  3.000E-04
+
+             start of assembly     cycle number is     0
+             wall time =          37.00
+
+
+
+             start of matrix solution
+             wall time =          37.00
+
+             CASI Assembly  Completed
+             wall time =          38.00
+
+             CASI Preconditioner Completed
+             wall time =          38.00
+
+
+
+             end of matrix solution
+             wall time =          38.00
+
+
+
+             maximum error between temperature estimate and solution is  7.9597E+00 at node     178836
+             this is within tolerance
+
+
+             maximum nodal temperature change is  9.785E+01 at node     178836
+
+             this is  9.785E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          38.00
+
+
+
+             start of matrix solution
+             wall time =          38.00
+
+             CASI Assembly  Completed
+             wall time =          39.00
+
+             CASI Preconditioner Completed
+             wall time =          39.00
+
+
+
+             end of matrix solution
+             wall time =          40.00
+
+
+             maximum residual force  at node    159247 degree of freedom  3 is equal to    3.509E-01
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.264E+02
+             residual convergence ratio    2.776E-03
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       2
+             wall time =          41.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       3
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          41.00
+
+
+
+             start of matrix solution
+             wall time =          41.00
+
+             CASI Assembly  Completed
+             wall time =          42.00
+
+             CASI Preconditioner Completed
+             wall time =          42.00
+
+
+
+             end of matrix solution
+             wall time =          42.00
+
+
+
+             maximum error between temperature estimate and solution is  8.2273E+01 at node     163161
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          42.00
+
+
+
+             start of matrix solution
+             wall time =          42.00
+
+             CASI Assembly  Completed
+             wall time =          43.00
+
+             CASI Preconditioner Completed
+             wall time =          43.00
+
+
+
+             end of matrix solution
+             wall time =          43.00
+
+
+
+             maximum error between temperature estimate and solution is  5.0922E-01 at node     163161
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.278E+01 at node     163161
+
+             this is  8.278E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          43.00
+
+
+
+             start of matrix solution
+             wall time =          43.00
+
+             CASI Assembly  Completed
+             wall time =          44.00
+
+             CASI Preconditioner Completed
+             wall time =          44.00
+
+
+
+             end of matrix solution
+             wall time =          44.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    5.614E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.262E+02
+             residual convergence ratio    4.447E-05
+
+
+              time increment has been changed to     3.60000E-04
+               previous time increment               3.00000E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           6.00000E-04
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       3
+             wall time =          45.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       4
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          46.00
+
+
+
+             start of matrix solution
+             wall time =          46.00
+
+             CASI Assembly  Completed
+             wall time =          46.00
+
+             CASI Preconditioner Completed
+             wall time =          46.00
+
+
+
+             end of matrix solution
+             wall time =          47.00
+
+
+
+             maximum error between temperature estimate and solution is  8.2419E+01 at node     163161
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          47.00
+
+
+
+             start of matrix solution
+             wall time =          47.00
+
+             CASI Assembly  Completed
+             wall time =          47.00
+
+             CASI Preconditioner Completed
+             wall time =          47.00
+
+
+
+             end of matrix solution
+             wall time =          48.00
+
+
+
+             maximum error between temperature estimate and solution is  4.9392E-01 at node     163161
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.291E+01 at node     163161
+
+             this is  8.291E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          48.00
+
+
+
+             start of matrix solution
+             wall time =          48.00
+
+             CASI Assembly  Completed
+             wall time =          49.00
+
+             CASI Preconditioner Completed
+             wall time =          49.00
+
+
+
+             end of matrix solution
+             wall time =          49.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    6.136E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.262E+02
+             residual convergence ratio    4.863E-05
+
+
+              time increment has been changed to     4.32000E-04
+               previous time increment               3.60000E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           9.60000E-04
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       4
+             wall time =          50.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       5
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          50.00
+
+
+
+             start of matrix solution
+             wall time =          51.00
+
+             CASI Assembly  Completed
+             wall time =          51.00
+
+             CASI Preconditioner Completed
+             wall time =          51.00
+
+
+
+             end of matrix solution
+             wall time =          51.00
+
+
+
+             maximum error between temperature estimate and solution is  8.1003E+01 at node     163161
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          51.00
+
+
+
+             start of matrix solution
+             wall time =          51.00
+
+             CASI Assembly  Completed
+             wall time =          52.00
+
+             CASI Preconditioner Completed
+             wall time =          52.00
+
+
+
+             end of matrix solution
+             wall time =          52.00
+
+
+
+             maximum error between temperature estimate and solution is  5.1327E-01 at node     163161
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.152E+01 at node     163161
+
+             this is  8.152E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          52.00
+
+
+
+             start of matrix solution
+             wall time =          52.00
+
+             CASI Assembly  Completed
+             wall time =          53.00
+
+             CASI Preconditioner Completed
+             wall time =          53.00
+
+
+
+             end of matrix solution
+             wall time =          54.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    7.000E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.261E+02
+             residual convergence ratio    5.552E-05
+
+
+              time increment has been changed to     5.18400E-04
+               previous time increment               4.32000E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           1.39200E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       5
+             wall time =          55.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       6
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          55.00
+
+
+
+             start of matrix solution
+             wall time =          55.00
+
+             CASI Assembly  Completed
+             wall time =          55.00
+
+             CASI Preconditioner Completed
+             wall time =          55.00
+
+
+
+             end of matrix solution
+             wall time =          55.00
+
+
+
+             maximum error between temperature estimate and solution is  7.9500E+01 at node     163128
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          55.00
+
+
+
+             start of matrix solution
+             wall time =          56.00
+
+             CASI Assembly  Completed
+             wall time =          56.00
+
+             CASI Preconditioner Completed
+             wall time =          56.00
+
+
+
+             end of matrix solution
+             wall time =          56.00
+
+
+
+             maximum error between temperature estimate and solution is  5.1562E-01 at node     163161
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.000E+01 at node     163128
+
+             this is  8.000E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          56.00
+
+
+
+             start of matrix solution
+             wall time =          56.00
+
+             CASI Assembly  Completed
+             wall time =          57.00
+
+             CASI Preconditioner Completed
+             wall time =          57.00
+
+
+
+             end of matrix solution
+             wall time =          58.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    7.882E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.259E+02
+             residual convergence ratio    6.261E-05
+
+
+              time increment has been changed to     6.22080E-04
+               previous time increment               5.18400E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           1.91040E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       6
+             wall time =          58.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       7
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          59.00
+
+
+
+             start of matrix solution
+             wall time =          59.00
+
+             CASI Assembly  Completed
+             wall time =          59.00
+
+             CASI Preconditioner Completed
+             wall time =          59.00
+
+
+
+             end of matrix solution
+             wall time =          59.00
+
+
+
+             maximum error between temperature estimate and solution is  7.9547E+01 at node     163546
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          59.00
+
+
+
+             start of matrix solution
+             wall time =          59.00
+
+             CASI Assembly  Completed
+             wall time =          60.00
+
+             CASI Preconditioner Completed
+             wall time =          60.00
+
+
+
+             end of matrix solution
+             wall time =          60.00
+
+
+
+             maximum error between temperature estimate and solution is  5.4475E-01 at node     163546
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.009E+01 at node     163546
+
+             this is  8.009E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          60.00
+
+
+
+             start of matrix solution
+             wall time =          61.00
+
+             CASI Assembly  Completed
+             wall time =          61.00
+
+             CASI Preconditioner Completed
+             wall time =          61.00
+
+
+
+             end of matrix solution
+             wall time =          62.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    8.750E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.256E+02
+             residual convergence ratio    6.965E-05
+
+
+              time increment has been changed to     7.46496E-04
+               previous time increment               6.22080E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           2.53248E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       7
+             wall time =          63.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       8
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          63.00
+
+
+
+             start of matrix solution
+             wall time =          63.00
+
+             CASI Assembly  Completed
+             wall time =          63.00
+
+             CASI Preconditioner Completed
+             wall time =          63.00
+
+
+
+             end of matrix solution
+             wall time =          63.00
+
+
+
+             maximum error between temperature estimate and solution is  7.8353E+01 at node     163546
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          63.00
+
+
+
+             start of matrix solution
+             wall time =          64.00
+
+             CASI Assembly  Completed
+             wall time =          64.00
+
+             CASI Preconditioner Completed
+             wall time =          64.00
+
+
+
+             end of matrix solution
+             wall time =          64.00
+
+
+
+             maximum error between temperature estimate and solution is  5.5790E-01 at node     163546
+             this is within tolerance
+
+
+             maximum nodal temperature change is  7.891E+01 at node     163546
+
+             this is  7.891E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          64.00
+
+
+
+             start of matrix solution
+             wall time =          65.00
+
+             CASI Assembly  Completed
+             wall time =          65.00
+
+             CASI Preconditioner Completed
+             wall time =          65.00
+
+
+
+             end of matrix solution
+             wall time =          66.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    9.550E-03
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.252E+02
+             residual convergence ratio    7.626E-05
+
+
+              time increment has been changed to     8.95795E-04
+               previous time increment               7.46496E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           3.27898E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       8
+             wall time =          67.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       9
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          67.00
+
+
+
+             start of matrix solution
+             wall time =          67.00
+
+             CASI Assembly  Completed
+             wall time =          67.00
+
+             CASI Preconditioner Completed
+             wall time =          67.00
+
+
+
+             end of matrix solution
+             wall time =          67.00
+
+
+
+             maximum error between temperature estimate and solution is  7.6116E+01 at node     162853
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          68.00
+
+
+
+             start of matrix solution
+             wall time =          68.00
+
+             CASI Assembly  Completed
+             wall time =          68.00
+
+             CASI Preconditioner Completed
+             wall time =          68.00
+
+
+
+             end of matrix solution
+             wall time =          68.00
+
+
+
+             maximum error between temperature estimate and solution is  5.4070E-01 at node     163546
+             this is within tolerance
+
+
+             maximum nodal temperature change is  7.665E+01 at node     162853
+
+             this is  7.665E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          68.00
+
+
+
+             start of matrix solution
+             wall time =          69.00
+
+             CASI Assembly  Completed
+             wall time =          69.00
+
+             CASI Preconditioner Completed
+             wall time =          69.00
+
+
+
+             end of matrix solution
+             wall time =          70.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    1.022E-02
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.247E+02
+             residual convergence ratio    8.196E-05
+
+
+              time increment has been changed to     1.07495E-03
+               previous time increment               8.95795E-04
+               total period to be covered            3.00000E+01
+               total period covered so far           4.17477E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t       9
+             wall time =          71.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      10
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          71.00
+
+
+
+             start of matrix solution
+             wall time =          71.00
+
+             CASI Assembly  Completed
+             wall time =          72.00
+
+             CASI Preconditioner Completed
+             wall time =          72.00
+
+
+
+             end of matrix solution
+             wall time =          72.00
+
+
+
+             maximum error between temperature estimate and solution is  7.2336E+01 at node     162853
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          72.00
+
+
+
+             start of matrix solution
+             wall time =          72.00
+
+             CASI Assembly  Completed
+             wall time =          72.00
+
+             CASI Preconditioner Completed
+             wall time =          72.00
+
+
+
+             end of matrix solution
+             wall time =          72.00
+
+
+
+             maximum error between temperature estimate and solution is  5.1346E-01 at node     162853
+             this is within tolerance
+
+
+             maximum nodal temperature change is  7.285E+01 at node     162853
+
+             this is  7.285E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          72.00
+
+
+
+             start of matrix solution
+             wall time =          73.00
+
+             CASI Assembly  Completed
+             wall time =          73.00
+
+             CASI Preconditioner Completed
+             wall time =          73.00
+
+
+
+             end of matrix solution
+             wall time =          74.00
+
+
+             maximum residual force  at node    159544 degree of freedom  2 is equal to    1.069E-02
+             maximum reaction force  at node    159245 degree of freedom  3 is equal to    1.240E+02
+             residual convergence ratio    8.623E-05
+
+
+              time increment has been changed to     1.28995E-03
+               previous time increment               1.07495E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           5.24973E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      10
+             wall time =          75.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      11
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          75.00
+
+
+
+             start of matrix solution
+             wall time =          75.00
+
+             CASI Assembly  Completed
+             wall time =          75.00
+
+             CASI Preconditioner Completed
+             wall time =          75.00
+
+
+
+             end of matrix solution
+             wall time =          76.00
+
+
+
+             maximum error between temperature estimate and solution is  6.6829E+01 at node     162853
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          76.00
+
+
+
+             start of matrix solution
+             wall time =          76.00
+
+             CASI Assembly  Completed
+             wall time =          76.00
+
+             CASI Preconditioner Completed
+             wall time =          76.00
+
+
+
+             end of matrix solution
+             wall time =          76.00
+
+
+
+             maximum error between temperature estimate and solution is  4.6674E-01 at node     162853
+             this is within tolerance
+
+
+             maximum nodal temperature change is  6.730E+01 at node     162853
+
+             this is  6.730E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          76.00
+
+
+
+             start of matrix solution
+             wall time =          77.00
+
+             CASI Assembly  Completed
+             wall time =          77.00
+
+             CASI Preconditioner Completed
+             wall time =          78.00
+
+
+
+             end of matrix solution
+             wall time =          78.00
+
+
+             maximum residual force  at node    156574 degree of freedom  2 is equal to    1.090E-02
+             maximum reaction force  at node    158948 degree of freedom  3 is equal to    1.238E+02
+             residual convergence ratio    8.806E-05
+
+
+              time increment has been changed to     1.54793E-03
+               previous time increment               1.28995E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           6.53967E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      11
+             wall time =          79.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      12
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          79.00
+
+
+
+             start of matrix solution
+             wall time =          80.00
+
+             CASI Assembly  Completed
+             wall time =          80.00
+
+             CASI Preconditioner Completed
+             wall time =          80.00
+
+
+
+             end of matrix solution
+             wall time =          80.00
+
+
+
+             maximum error between temperature estimate and solution is  6.2913E+01 at node     163106
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          80.00
+
+
+
+             start of matrix solution
+             wall time =          80.00
+
+             CASI Assembly  Completed
+             wall time =          81.00
+
+             CASI Preconditioner Completed
+             wall time =          81.00
+
+
+
+             end of matrix solution
+             wall time =          81.00
+
+
+
+             maximum error between temperature estimate and solution is  4.4322E-01 at node     163106
+             this is within tolerance
+
+
+             maximum nodal temperature change is  6.336E+01 at node     163106
+
+             this is  6.336E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          81.00
+
+
+
+             start of matrix solution
+             wall time =          81.00
+
+             CASI Assembly  Completed
+             wall time =          82.00
+
+             CASI Preconditioner Completed
+             wall time =          82.00
+
+
+
+             end of matrix solution
+             wall time =          82.00
+
+
+             maximum residual force  at node    156288 degree of freedom  2 is equal to    1.082E-02
+             maximum reaction force  at node    158948 degree of freedom  3 is equal to    1.236E+02
+             residual convergence ratio    8.754E-05
+
+
+              time increment has been changed to     1.85752E-03
+               previous time increment               1.54793E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           8.08760E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      12
+             wall time =          83.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      13
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          83.00
+
+
+
+             start of matrix solution
+             wall time =          83.00
+
+             CASI Assembly  Completed
+             wall time =          84.00
+
+             CASI Preconditioner Completed
+             wall time =          84.00
+
+
+
+             end of matrix solution
+             wall time =          84.00
+
+
+
+             maximum error between temperature estimate and solution is  6.1249E+01 at node     163799
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          84.00
+
+
+
+             start of matrix solution
+             wall time =          84.00
+
+             CASI Assembly  Completed
+             wall time =          85.00
+
+             CASI Preconditioner Completed
+             wall time =          85.00
+
+
+
+             end of matrix solution
+             wall time =          85.00
+
+
+
+             maximum error between temperature estimate and solution is  4.4203E-01 at node     163799
+             this is within tolerance
+
+
+             maximum nodal temperature change is  6.169E+01 at node     163799
+
+             this is  6.169E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          85.00
+
+
+
+             start of matrix solution
+             wall time =          85.00
+
+             CASI Assembly  Completed
+             wall time =          86.00
+
+             CASI Preconditioner Completed
+             wall time =          86.00
+
+
+
+             end of matrix solution
+             wall time =          86.00
+
+
+             maximum residual force  at node    156288 degree of freedom  2 is equal to    1.042E-02
+             maximum reaction force  at node    158948 degree of freedom  3 is equal to    1.232E+02
+             residual convergence ratio    8.463E-05
+
+
+              time increment has been changed to     2.22903E-03
+               previous time increment               1.85752E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           9.94513E-03
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      13
+             wall time =          87.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      14
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          87.00
+
+
+
+             start of matrix solution
+             wall time =          87.00
+
+             CASI Assembly  Completed
+             wall time =          88.00
+
+             CASI Preconditioner Completed
+             wall time =          88.00
+
+
+
+             end of matrix solution
+             wall time =          88.00
+
+
+
+             maximum error between temperature estimate and solution is  5.8482E+01 at node     163799
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          88.00
+
+
+
+             start of matrix solution
+             wall time =          88.00
+
+             CASI Assembly  Completed
+             wall time =          89.00
+
+             CASI Preconditioner Completed
+             wall time =          89.00
+
+
+
+             end of matrix solution
+             wall time =          89.00
+
+
+
+             maximum error between temperature estimate and solution is  4.2663E-01 at node     163799
+             this is within tolerance
+
+
+             maximum nodal temperature change is  5.891E+01 at node     163799
+
+             this is  5.891E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          89.00
+
+
+
+             start of matrix solution
+             wall time =          89.00
+
+             CASI Assembly  Completed
+             wall time =          90.00
+
+             CASI Preconditioner Completed
+             wall time =          90.00
+
+
+
+             end of matrix solution
+             wall time =          90.00
+
+
+             maximum residual force  at node    158675 degree of freedom  3 is equal to    9.920E-03
+             maximum reaction force  at node    158948 degree of freedom  3 is equal to    1.225E+02
+             residual convergence ratio    8.097E-05
+
+
+              time increment has been changed to     2.67483E-03
+               previous time increment               2.22903E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           1.21742E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      14
+             wall time =          91.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      15
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          91.00
+
+
+
+             start of matrix solution
+             wall time =          92.00
+
+             CASI Assembly  Completed
+             wall time =          92.00
+
+             CASI Preconditioner Completed
+             wall time =          92.00
+
+
+
+             end of matrix solution
+             wall time =          92.00
+
+
+
+             maximum error between temperature estimate and solution is  5.4618E+01 at node     163799
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          92.00
+
+
+
+             start of matrix solution
+             wall time =          92.00
+
+             CASI Assembly  Completed
+             wall time =          93.00
+
+             CASI Preconditioner Completed
+             wall time =          93.00
+
+
+
+             end of matrix solution
+             wall time =          93.00
+
+
+
+             maximum error between temperature estimate and solution is  3.9585E-01 at node     163799
+             this is within tolerance
+
+
+             maximum nodal temperature change is  5.501E+01 at node     163799
+
+             this is  5.501E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          93.00
+
+
+
+             start of matrix solution
+             wall time =          93.00
+
+             CASI Assembly  Completed
+             wall time =          94.00
+
+             CASI Preconditioner Completed
+             wall time =          94.00
+
+
+
+             end of matrix solution
+             wall time =          95.00
+
+
+             maximum residual force  at node    158675 degree of freedom  3 is equal to    1.059E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.232E+02
+             residual convergence ratio    8.595E-05
+
+
+              time increment has been changed to     3.20980E-03
+               previous time increment               2.67483E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           1.48490E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      15
+             wall time =          96.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      16
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =          96.00
+
+
+
+             start of matrix solution
+             wall time =          96.00
+
+             CASI Assembly  Completed
+             wall time =          96.00
+
+             CASI Preconditioner Completed
+             wall time =          96.00
+
+
+
+             end of matrix solution
+             wall time =          97.00
+
+
+
+             maximum error between temperature estimate and solution is  5.0138E+01 at node     163799
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =          97.00
+
+
+
+             start of matrix solution
+             wall time =          97.00
+
+             CASI Assembly  Completed
+             wall time =          97.00
+
+             CASI Preconditioner Completed
+             wall time =          97.00
+
+
+
+             end of matrix solution
+             wall time =          97.00
+
+
+
+             maximum error between temperature estimate and solution is  3.5615E-01 at node     163799
+             this is within tolerance
+
+
+             maximum nodal temperature change is  5.049E+01 at node     163799
+
+             this is  5.049E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =          97.00
+
+
+
+             start of matrix solution
+             wall time =          98.00
+
+             CASI Assembly  Completed
+             wall time =          98.00
+
+             CASI Preconditioner Completed
+             wall time =          98.00
+
+
+
+             end of matrix solution
+             wall time =          99.00
+
+
+             maximum residual force  at node    158675 degree of freedom  3 is equal to    1.108E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.247E+02
+             residual convergence ratio    8.886E-05
+
+
+              time increment has been changed to     3.85176E-03
+               previous time increment               3.20980E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           1.80588E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      16
+             wall time =         100.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      17
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         100.00
+
+
+
+             start of matrix solution
+             wall time =         100.00
+
+             CASI Assembly  Completed
+             wall time =         100.00
+
+             CASI Preconditioner Completed
+             wall time =         100.00
+
+
+
+             end of matrix solution
+             wall time =         100.00
+
+
+
+             maximum error between temperature estimate and solution is  4.6471E+01 at node     177428
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         100.00
+
+
+
+             start of matrix solution
+             wall time =         101.00
+
+             CASI Assembly  Completed
+             wall time =         101.00
+
+             CASI Preconditioner Completed
+             wall time =         101.00
+
+
+
+             end of matrix solution
+             wall time =         101.00
+
+
+
+             maximum error between temperature estimate and solution is  3.1729E-01 at node     176086
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.678E+01 at node     177428
+
+             this is  4.678E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         101.00
+
+
+
+             start of matrix solution
+             wall time =         101.00
+
+             CASI Assembly  Completed
+             wall time =         102.00
+
+             CASI Preconditioner Completed
+             wall time =         102.00
+
+
+
+             end of matrix solution
+             wall time =         103.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.168E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.257E+02
+             residual convergence ratio    9.295E-05
+
+
+              time increment has been changed to     4.62211E-03
+               previous time increment               3.85176E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           2.19105E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      17
+             wall time =         104.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      18
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         104.00
+
+
+
+             start of matrix solution
+             wall time =         104.00
+
+             CASI Assembly  Completed
+             wall time =         104.00
+
+             CASI Preconditioner Completed
+             wall time =         104.00
+
+
+
+             end of matrix solution
+             wall time =         104.00
+
+
+
+             maximum error between temperature estimate and solution is  4.2976E+01 at node     163788
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         104.00
+
+
+
+             start of matrix solution
+             wall time =         105.00
+
+             CASI Assembly  Completed
+             wall time =         105.00
+
+             CASI Preconditioner Completed
+             wall time =         105.00
+
+
+
+             end of matrix solution
+             wall time =         105.00
+
+
+
+             maximum error between temperature estimate and solution is  2.8827E-01 at node     163788
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.326E+01 at node     163788
+
+             this is  4.326E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         105.00
+
+
+
+             start of matrix solution
+             wall time =         106.00
+
+             CASI Assembly  Completed
+             wall time =         106.00
+
+             CASI Preconditioner Completed
+             wall time =         106.00
+
+
+
+             end of matrix solution
+             wall time =         107.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.226E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.263E+02
+             residual convergence ratio    9.707E-05
+
+
+              time increment has been changed to     5.54653E-03
+               previous time increment               4.62211E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           2.65326E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      18
+             wall time =         108.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      19
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         108.00
+
+
+
+             start of matrix solution
+             wall time =         108.00
+
+             CASI Assembly  Completed
+             wall time =         108.00
+
+             CASI Preconditioner Completed
+             wall time =         108.00
+
+
+
+             end of matrix solution
+             wall time =         108.00
+
+
+
+             maximum error between temperature estimate and solution is  3.9792E+01 at node     163788
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         109.00
+
+
+
+             start of matrix solution
+             wall time =         109.00
+
+             CASI Assembly  Completed
+             wall time =         109.00
+
+             CASI Preconditioner Completed
+             wall time =         109.00
+
+
+
+             end of matrix solution
+             wall time =         109.00
+
+
+
+             maximum error between temperature estimate and solution is  2.6442E-01 at node     163788
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.006E+01 at node     163788
+
+             this is  4.006E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         109.00
+
+
+
+             start of matrix solution
+             wall time =         110.00
+
+             CASI Assembly  Completed
+             wall time =         110.00
+
+             CASI Preconditioner Completed
+             wall time =         110.00
+
+
+
+             end of matrix solution
+             wall time =         111.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.251E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.263E+02
+             residual convergence ratio    9.906E-05
+
+
+              time increment has been changed to     6.65583E-03
+               previous time increment               5.54653E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           3.20792E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      19
+             wall time =         112.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      20
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         112.00
+
+
+
+             start of matrix solution
+             wall time =         112.00
+
+             CASI Assembly  Completed
+             wall time =         112.00
+
+             CASI Preconditioner Completed
+             wall time =         112.00
+
+
+
+             end of matrix solution
+             wall time =         112.00
+
+
+
+             maximum error between temperature estimate and solution is  3.7054E+01 at node     156605
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         113.00
+
+
+
+             start of matrix solution
+             wall time =         113.00
+
+             CASI Assembly  Completed
+             wall time =         113.00
+
+             CASI Preconditioner Completed
+             wall time =         113.00
+
+
+
+             end of matrix solution
+             wall time =         113.00
+
+
+
+             maximum error between temperature estimate and solution is  2.4021E-01 at node     163788
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.729E+01 at node     156605
+
+             this is  3.729E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         113.00
+
+
+
+             start of matrix solution
+             wall time =         114.00
+
+             CASI Assembly  Completed
+             wall time =         114.00
+
+             CASI Preconditioner Completed
+             wall time =         115.00
+
+
+
+             end of matrix solution
+             wall time =         115.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.244E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.259E+02
+             residual convergence ratio    9.884E-05
+
+
+              time increment has been changed to     7.98700E-03
+               previous time increment               6.65583E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           3.87350E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      20
+             wall time =         116.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      21
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         116.00
+
+
+
+             start of matrix solution
+             wall time =         116.00
+
+             CASI Assembly  Completed
+             wall time =         116.00
+
+             CASI Preconditioner Completed
+             wall time =         117.00
+
+
+
+             end of matrix solution
+             wall time =         117.00
+
+
+
+             maximum error between temperature estimate and solution is  3.4479E+01 at node     156605
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         117.00
+
+
+
+             start of matrix solution
+             wall time =         117.00
+
+             CASI Assembly  Completed
+             wall time =         117.00
+
+             CASI Preconditioner Completed
+             wall time =         117.00
+
+
+
+             end of matrix solution
+             wall time =         117.00
+
+
+
+             maximum error between temperature estimate and solution is  2.1622E-01 at node     163788
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.469E+01 at node     156605
+
+             this is  3.469E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         117.00
+
+
+
+             start of matrix solution
+             wall time =         118.00
+
+             CASI Assembly  Completed
+             wall time =         119.00
+
+             CASI Preconditioner Completed
+             wall time =         119.00
+
+
+
+             end of matrix solution
+             wall time =         119.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.205E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.249E+02
+             residual convergence ratio    9.649E-05
+
+
+              time increment has been changed to     9.58440E-03
+               previous time increment               7.98700E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           4.67220E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      21
+             wall time =         120.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      22
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         120.00
+
+
+
+             start of matrix solution
+             wall time =         120.00
+
+             CASI Assembly  Completed
+             wall time =         121.00
+
+             CASI Preconditioner Completed
+             wall time =         121.00
+
+
+
+             end of matrix solution
+             wall time =         121.00
+
+
+
+             maximum error between temperature estimate and solution is  3.2355E+01 at node     163084
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         121.00
+
+
+
+             start of matrix solution
+             wall time =         121.00
+
+             CASI Assembly  Completed
+             wall time =         122.00
+
+             CASI Preconditioner Completed
+             wall time =         122.00
+
+
+
+             end of matrix solution
+             wall time =         122.00
+
+
+
+             maximum error between temperature estimate and solution is  1.9608E-01 at node     163084
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.255E+01 at node     163084
+
+             this is  3.255E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         122.00
+
+
+
+             start of matrix solution
+             wall time =         122.00
+
+             CASI Assembly  Completed
+             wall time =         123.00
+
+             CASI Preconditioner Completed
+             wall time =         123.00
+
+
+
+             end of matrix solution
+             wall time =         123.00
+
+
+             maximum residual force  at node    157168 degree of freedom  3 is equal to    1.138E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.233E+02
+             residual convergence ratio    9.230E-05
+
+
+              time increment has been changed to     1.15013E-02
+               previous time increment               9.58440E-03
+               total period to be covered            3.00000E+01
+               total period covered so far           5.63064E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      22
+             wall time =         124.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      23
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         124.00
+
+
+
+             start of matrix solution
+             wall time =         124.00
+
+             CASI Assembly  Completed
+             wall time =         125.00
+
+             CASI Preconditioner Completed
+             wall time =         125.00
+
+
+
+             end of matrix solution
+             wall time =         125.00
+
+
+
+             maximum error between temperature estimate and solution is  3.0421E+01 at node     169618
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         125.00
+
+
+
+             start of matrix solution
+             wall time =         125.00
+
+             CASI Assembly  Completed
+             wall time =         126.00
+
+             CASI Preconditioner Completed
+             wall time =         126.00
+
+
+
+             end of matrix solution
+             wall time =         126.00
+
+
+
+             maximum error between temperature estimate and solution is  1.7933E-01 at node     163777
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.060E+01 at node     169618
+
+             this is  3.060E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         126.00
+
+
+
+             start of matrix solution
+             wall time =         126.00
+
+             CASI Assembly  Completed
+             wall time =         127.00
+
+             CASI Preconditioner Completed
+             wall time =         127.00
+
+
+
+             end of matrix solution
+             wall time =         127.00
+
+
+             maximum residual force  at node    158653 degree of freedom  3 is equal to    1.052E-02
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.213E+02
+             residual convergence ratio    8.673E-05
+
+
+              time increment has been changed to     1.38015E-02
+               previous time increment               1.15013E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           6.78077E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      23
+             wall time =         128.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      24
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         128.00
+
+
+
+             start of matrix solution
+             wall time =         128.00
+
+             CASI Assembly  Completed
+             wall time =         129.00
+
+             CASI Preconditioner Completed
+             wall time =         129.00
+
+
+
+             end of matrix solution
+             wall time =         129.00
+
+
+
+             maximum error between temperature estimate and solution is  2.8553E+01 at node     169618
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.855E+01 at node     169618
+
+             this is  2.855E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         129.00
+
+
+
+             start of matrix solution
+             wall time =         129.00
+
+             CASI Assembly  Completed
+             wall time =         130.00
+
+             CASI Preconditioner Completed
+             wall time =         130.00
+
+
+
+             end of matrix solution
+             wall time =         130.00
+
+
+             maximum residual force  at node    158653 degree of freedom  3 is equal to    9.703E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.188E+02
+             residual convergence ratio    8.166E-05
+
+
+              time increment has been changed to     1.65618E-02
+               previous time increment               1.38015E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           8.16092E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      24
+             wall time =         132.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      25
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         132.00
+
+
+
+             start of matrix solution
+             wall time =         132.00
+
+             CASI Assembly  Completed
+             wall time =         132.00
+
+             CASI Preconditioner Completed
+             wall time =         132.00
+
+
+
+             end of matrix solution
+             wall time =         132.00
+
+
+
+             maximum error between temperature estimate and solution is  2.6949E+01 at node     163073
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.695E+01 at node     163073
+
+             this is  2.695E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         132.00
+
+
+
+             start of matrix solution
+             wall time =         133.00
+
+             CASI Assembly  Completed
+             wall time =         133.00
+
+             CASI Preconditioner Completed
+             wall time =         133.00
+
+
+
+             end of matrix solution
+             wall time =         134.00
+
+
+             maximum residual force  at node    158367 degree of freedom  3 is equal to    8.799E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.159E+02
+             residual convergence ratio    7.595E-05
+
+
+              time increment has been changed to     1.98742E-02
+               previous time increment               1.65618E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           9.81711E-02
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      25
+             wall time =         135.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      26
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         135.00
+
+
+
+             start of matrix solution
+             wall time =         135.00
+
+             CASI Assembly  Completed
+             wall time =         136.00
+
+             CASI Preconditioner Completed
+             wall time =         136.00
+
+
+
+             end of matrix solution
+             wall time =         136.00
+
+
+
+             maximum error between temperature estimate and solution is  2.5283E+01 at node     169629
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.528E+01 at node     169629
+
+             this is  2.528E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         136.00
+
+
+
+             start of matrix solution
+             wall time =         136.00
+
+             CASI Assembly  Completed
+             wall time =         137.00
+
+             CASI Preconditioner Completed
+             wall time =         137.00
+
+
+
+             end of matrix solution
+             wall time =         137.00
+
+
+             maximum residual force  at node    157179 degree of freedom  3 is equal to    7.815E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.124E+02
+             residual convergence ratio    6.954E-05
+
+
+              time increment has been changed to     2.38491E-02
+               previous time increment               1.98742E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           1.18045E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      26
+             wall time =         139.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      27
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         139.00
+
+
+
+             start of matrix solution
+             wall time =         139.00
+
+             CASI Assembly  Completed
+             wall time =         139.00
+
+             CASI Preconditioner Completed
+             wall time =         139.00
+
+
+
+             end of matrix solution
+             wall time =         139.00
+
+
+
+             maximum error between temperature estimate and solution is  2.3705E+01 at node     163062
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.371E+01 at node     163062
+
+             this is  2.371E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         139.00
+
+
+
+             start of matrix solution
+             wall time =         140.00
+
+             CASI Assembly  Completed
+             wall time =         140.00
+
+             CASI Preconditioner Completed
+             wall time =         140.00
+
+
+
+             end of matrix solution
+             wall time =         141.00
+
+
+             maximum residual force  at node    157179 degree of freedom  3 is equal to    6.793E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.084E+02
+             residual convergence ratio    6.268E-05
+
+
+              time increment has been changed to     2.86189E-02
+               previous time increment               2.38491E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           1.41894E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      27
+             wall time =         142.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      28
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         142.00
+
+
+
+             start of matrix solution
+             wall time =         142.00
+
+             CASI Assembly  Completed
+             wall time =         142.00
+
+             CASI Preconditioner Completed
+             wall time =         142.00
+
+
+
+             end of matrix solution
+             wall time =         142.00
+
+
+
+             maximum error between temperature estimate and solution is  2.2205E+01 at node     163062
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.221E+01 at node     163062
+
+             this is  2.221E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         143.00
+
+
+
+             start of matrix solution
+             wall time =         143.00
+
+             CASI Assembly  Completed
+             wall time =         143.00
+
+             CASI Preconditioner Completed
+             wall time =         144.00
+
+
+
+             end of matrix solution
+             wall time =         144.00
+
+
+             maximum residual force  at node    158070 degree of freedom  3 is equal to    5.847E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.038E+02
+             residual convergence ratio    5.631E-05
+
+
+              time increment has been changed to     3.43426E-02
+               previous time increment               2.86189E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           1.70513E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      28
+             wall time =         145.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      29
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         145.00
+
+
+
+             start of matrix solution
+             wall time =         145.00
+
+             CASI Assembly  Completed
+             wall time =         146.00
+
+             CASI Preconditioner Completed
+             wall time =         146.00
+
+
+
+             end of matrix solution
+             wall time =         146.00
+
+
+
+             maximum error between temperature estimate and solution is  2.0825E+01 at node     163051
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.083E+01 at node     163051
+
+             this is  2.083E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         146.00
+
+
+
+             start of matrix solution
+             wall time =         146.00
+
+             CASI Assembly  Completed
+             wall time =         147.00
+
+             CASI Preconditioner Completed
+             wall time =         147.00
+
+
+
+             end of matrix solution
+             wall time =         147.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    5.184E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    9.873E+01
+             residual convergence ratio    5.251E-05
+
+
+              time increment has been changed to     4.12112E-02
+               previous time increment               3.43426E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           2.04856E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      29
+             wall time =         149.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      30
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         149.00
+
+
+
+             start of matrix solution
+             wall time =         149.00
+
+             CASI Assembly  Completed
+             wall time =         149.00
+
+             CASI Preconditioner Completed
+             wall time =         149.00
+
+
+
+             end of matrix solution
+             wall time =         149.00
+
+
+
+             maximum error between temperature estimate and solution is  1.9621E+01 at node     163040
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.962E+01 at node     163040
+
+             this is  1.962E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         149.00
+
+
+
+             start of matrix solution
+             wall time =         150.00
+
+             CASI Assembly  Completed
+             wall time =         150.00
+
+             CASI Preconditioner Completed
+             wall time =         151.00
+
+
+
+             end of matrix solution
+             wall time =         151.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    4.646E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    9.303E+01
+             residual convergence ratio    4.994E-05
+
+
+              time increment has been changed to     4.94534E-02
+               previous time increment               4.12112E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           2.46067E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      30
+             wall time =         152.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      31
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         152.00
+
+
+
+             start of matrix solution
+             wall time =         152.00
+
+             CASI Assembly  Completed
+             wall time =         153.00
+
+             CASI Preconditioner Completed
+             wall time =         153.00
+
+
+
+             end of matrix solution
+             wall time =         153.00
+
+
+
+             maximum error between temperature estimate and solution is  1.8992E+01 at node     158002
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.899E+01 at node     158002
+
+             this is  1.899E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         153.00
+
+
+
+             start of matrix solution
+             wall time =         153.00
+
+             CASI Assembly  Completed
+             wall time =         154.00
+
+             CASI Preconditioner Completed
+             wall time =         154.00
+
+
+
+             end of matrix solution
+             wall time =         154.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    4.038E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    8.673E+01
+             residual convergence ratio    4.656E-05
+
+
+              time increment has been changed to     5.93441E-02
+               previous time increment               4.94534E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           2.95520E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      31
+             wall time =         155.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      32
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         155.00
+
+
+
+             start of matrix solution
+             wall time =         156.00
+
+             CASI Assembly  Completed
+             wall time =         156.00
+
+             CASI Preconditioner Completed
+             wall time =         156.00
+
+
+
+             end of matrix solution
+             wall time =         156.00
+
+
+
+             maximum error between temperature estimate and solution is  1.8606E+01 at node     157837
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.861E+01 at node     157837
+
+             this is  1.861E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         156.00
+
+
+
+             start of matrix solution
+             wall time =         156.00
+
+             CASI Assembly  Completed
+             wall time =         157.00
+
+             CASI Preconditioner Completed
+             wall time =         157.00
+
+
+
+             end of matrix solution
+             wall time =         158.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    3.440E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    7.984E+01
+             residual convergence ratio    4.308E-05
+
+
+              time increment has been changed to     7.12129E-02
+               previous time increment               5.93441E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           3.54864E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      32
+             wall time =         159.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      33
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         159.00
+
+
+
+             start of matrix solution
+             wall time =         159.00
+
+             CASI Assembly  Completed
+             wall time =         159.00
+
+             CASI Preconditioner Completed
+             wall time =         159.00
+
+
+
+             end of matrix solution
+             wall time =         159.00
+
+
+
+             maximum error between temperature estimate and solution is  1.8322E+01 at node     157991
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.832E+01 at node     157991
+
+             this is  1.832E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         159.00
+
+
+
+             start of matrix solution
+             wall time =         160.00
+
+             CASI Assembly  Completed
+             wall time =         160.00
+
+             CASI Preconditioner Completed
+             wall time =         160.00
+
+
+
+             end of matrix solution
+             wall time =         161.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    2.902E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    7.240E+01
+             residual convergence ratio    4.009E-05
+
+
+              time increment has been changed to     8.54555E-02
+               previous time increment               7.12129E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           4.26077E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      33
+             wall time =         162.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      34
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         162.00
+
+
+
+             start of matrix solution
+             wall time =         162.00
+
+             CASI Assembly  Completed
+             wall time =         163.00
+
+             CASI Preconditioner Completed
+             wall time =         163.00
+
+
+
+             end of matrix solution
+             wall time =         163.00
+
+
+
+             maximum error between temperature estimate and solution is  1.8116E+01 at node     169706
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.812E+01 at node     169706
+
+             this is  1.812E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         163.00
+
+
+
+             start of matrix solution
+             wall time =         163.00
+
+             CASI Assembly  Completed
+             wall time =         164.00
+
+             CASI Preconditioner Completed
+             wall time =         164.00
+
+
+
+             end of matrix solution
+             wall time =         164.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    2.446E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    6.450E+01
+             residual convergence ratio    3.792E-05
+
+
+              time increment has been changed to     1.02547E-01
+               previous time increment               8.54555E-02
+               total period to be covered            3.00000E+01
+               total period covered so far           5.11533E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      34
+             wall time =         165.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      35
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         165.00
+
+
+
+             start of matrix solution
+             wall time =         166.00
+
+             CASI Assembly  Completed
+             wall time =         166.00
+
+             CASI Preconditioner Completed
+             wall time =         166.00
+
+
+
+             end of matrix solution
+             wall time =         166.00
+
+
+
+             maximum error between temperature estimate and solution is  1.7995E+01 at node     164888
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.799E+01 at node     164888
+
+             this is  1.799E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         166.00
+
+
+
+             start of matrix solution
+             wall time =         166.00
+
+             CASI Assembly  Completed
+             wall time =         167.00
+
+             CASI Preconditioner Completed
+             wall time =         167.00
+
+
+
+             end of matrix solution
+             wall time =         168.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    2.062E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    5.626E+01
+             residual convergence ratio    3.665E-05
+
+
+              time increment has been changed to     1.23056E-01
+               previous time increment               1.02547E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           6.14079E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      35
+             wall time =         169.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      36
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         169.00
+
+
+
+             start of matrix solution
+             wall time =         169.00
+
+             CASI Assembly  Completed
+             wall time =         169.00
+
+             CASI Preconditioner Completed
+             wall time =         169.00
+
+
+
+             end of matrix solution
+             wall time =         170.00
+
+
+
+             maximum error between temperature estimate and solution is  1.7657E+01 at node     164888
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.766E+01 at node     164888
+
+             this is  1.766E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         170.00
+
+
+
+             start of matrix solution
+             wall time =         170.00
+
+             CASI Assembly  Completed
+             wall time =         170.00
+
+             CASI Preconditioner Completed
+             wall time =         171.00
+
+
+
+             end of matrix solution
+             wall time =         171.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    1.730E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    4.790E+01
+             residual convergence ratio    3.612E-05
+
+
+              time increment has been changed to     1.47667E-01
+               previous time increment               1.23056E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           7.37135E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      36
+             wall time =         172.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      37
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         172.00
+
+
+
+             start of matrix solution
+             wall time =         172.00
+
+             CASI Assembly  Completed
+             wall time =         173.00
+
+             CASI Preconditioner Completed
+             wall time =         173.00
+
+
+
+             end of matrix solution
+             wall time =         173.00
+
+
+
+             maximum error between temperature estimate and solution is  1.6954E+01 at node     164888
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.695E+01 at node     164888
+
+             this is  1.695E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         173.00
+
+
+
+             start of matrix solution
+             wall time =         173.00
+
+             CASI Assembly  Completed
+             wall time =         174.00
+
+             CASI Preconditioner Completed
+             wall time =         174.00
+
+
+
+             end of matrix solution
+             wall time =         175.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    1.428E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    3.966E+01
+             residual convergence ratio    3.600E-05
+
+
+              time increment has been changed to     1.77200E-01
+               previous time increment               1.47667E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           8.84802E-01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      37
+             wall time =         176.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      38
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         176.00
+
+
+
+             start of matrix solution
+             wall time =         176.00
+
+             CASI Assembly  Completed
+             wall time =         176.00
+
+             CASI Preconditioner Completed
+             wall time =         176.00
+
+
+
+             end of matrix solution
+             wall time =         176.00
+
+
+
+             maximum error between temperature estimate and solution is  1.6226E+01 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.623E+01 at node     165493
+
+             this is  1.623E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         176.00
+
+
+
+             start of matrix solution
+             wall time =         177.00
+
+             CASI Assembly  Completed
+             wall time =         177.00
+
+             CASI Preconditioner Completed
+             wall time =         178.00
+
+
+
+             end of matrix solution
+             wall time =         178.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    1.142E-03
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    3.180E+01
+             residual convergence ratio    3.592E-05
+
+
+              time increment has been changed to     2.12641E-01
+               previous time increment               1.77200E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           1.06200E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      38
+             wall time =         179.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      39
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         179.00
+
+
+
+             start of matrix solution
+             wall time =         179.00
+
+             CASI Assembly  Completed
+             wall time =         180.00
+
+             CASI Preconditioner Completed
+             wall time =         180.00
+
+
+
+             end of matrix solution
+             wall time =         180.00
+
+
+
+             maximum error between temperature estimate and solution is  1.5623E+01 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.562E+01 at node     165493
+
+             this is  1.562E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         180.00
+
+
+
+             start of matrix solution
+             wall time =         180.00
+
+             CASI Assembly  Completed
+             wall time =         181.00
+
+             CASI Preconditioner Completed
+             wall time =         181.00
+
+
+
+             end of matrix solution
+             wall time =         181.00
+
+
+             maximum residual force  at node    157775 degree of freedom  3 is equal to    8.742E-04
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    2.460E+01
+             residual convergence ratio    3.554E-05
+
+
+              time increment has been changed to     2.55169E-01
+               previous time increment               2.12641E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           1.27464E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      39
+             wall time =         183.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      40
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         183.00
+
+
+
+             start of matrix solution
+             wall time =         183.00
+
+             CASI Assembly  Completed
+             wall time =         183.00
+
+             CASI Preconditioner Completed
+             wall time =         183.00
+
+
+
+             end of matrix solution
+             wall time =         183.00
+
+
+
+             maximum error between temperature estimate and solution is  1.4521E+01 at node     175910
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.452E+01 at node     175910
+
+             this is  1.452E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         183.00
+
+
+
+             start of matrix solution
+             wall time =         184.00
+
+             CASI Assembly  Completed
+             wall time =         184.00
+
+             CASI Preconditioner Completed
+             wall time =         185.00
+
+
+
+             end of matrix solution
+             wall time =         185.00
+
+
+             maximum residual force  at node    165675 degree of freedom  3 is equal to    6.838E-04
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.827E+01
+             residual convergence ratio    3.743E-05
+
+
+              time increment has been changed to     3.06202E-01
+               previous time increment               2.55169E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           1.52981E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      40
+             wall time =         186.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      41
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         186.00
+
+
+
+             start of matrix solution
+             wall time =         186.00
+
+             CASI Assembly  Completed
+             wall time =         187.00
+
+             CASI Preconditioner Completed
+             wall time =         187.00
+
+
+
+             end of matrix solution
+             wall time =         187.00
+
+
+
+             maximum error between temperature estimate and solution is  1.2944E+01 at node     175910
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.294E+01 at node     175910
+
+             this is  1.294E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         187.00
+
+
+
+             start of matrix solution
+             wall time =         187.00
+
+             CASI Assembly  Completed
+             wall time =         188.00
+
+             CASI Preconditioner Completed
+             wall time =         188.00
+
+
+
+             end of matrix solution
+             wall time =         188.00
+
+
+             maximum residual force  at node    165675 degree of freedom  3 is equal to    5.134E-04
+             maximum reaction force  at node    164890 degree of freedom  1 is equal to    1.296E+01
+             residual convergence ratio    3.961E-05
+
+
+              time increment has been changed to     3.67443E-01
+               previous time increment               3.06202E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           1.83601E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      41
+             wall time =         189.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      42
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         189.00
+
+
+
+             start of matrix solution
+             wall time =         190.00
+
+             CASI Assembly  Completed
+             wall time =         190.00
+
+             CASI Preconditioner Completed
+             wall time =         190.00
+
+
+
+             end of matrix solution
+             wall time =         190.00
+
+
+
+             maximum error between temperature estimate and solution is  1.0990E+01 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.099E+01 at node     165493
+
+             this is  1.099E+01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         190.00
+
+
+
+             start of matrix solution
+             wall time =         191.00
+
+             CASI Assembly  Completed
+             wall time =         191.00
+
+             CASI Preconditioner Completed
+             wall time =         191.00
+
+
+
+             end of matrix solution
+             wall time =         192.00
+
+
+             maximum residual force  at node    165675 degree of freedom  3 is equal to    3.543E-04
+             maximum reaction force  at node    154165 degree of freedom  1 is equal to    8.890E+00
+             residual convergence ratio    3.985E-05
+
+
+              time increment has been changed to     4.40931E-01
+               previous time increment               3.67443E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           2.20346E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      42
+             wall time =         193.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      43
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         193.00
+
+
+
+             start of matrix solution
+             wall time =         193.00
+
+             CASI Assembly  Completed
+             wall time =         193.00
+
+             CASI Preconditioner Completed
+             wall time =         193.00
+
+
+
+             end of matrix solution
+             wall time =         193.00
+
+
+
+             maximum error between temperature estimate and solution is  8.8256E+00 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.826E+00 at node     165493
+
+             this is  8.826E+00 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         194.00
+
+
+
+             start of matrix solution
+             wall time =         194.00
+
+             CASI Assembly  Completed
+             wall time =         195.00
+
+             CASI Preconditioner Completed
+             wall time =         195.00
+
+
+
+             end of matrix solution
+             wall time =         195.00
+
+
+             maximum residual force  at node    165675 degree of freedom  3 is equal to    2.214E-04
+             maximum reaction force  at node    154165 degree of freedom  1 is equal to    5.815E+00
+             residual convergence ratio    3.808E-05
+
+
+              time increment has been changed to     5.29118E-01
+               previous time increment               4.40931E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           2.64439E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      43
+             wall time =         196.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      44
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         196.00
+
+
+
+             start of matrix solution
+             wall time =         196.00
+
+             CASI Assembly  Completed
+             wall time =         197.00
+
+             CASI Preconditioner Completed
+             wall time =         197.00
+
+
+
+             end of matrix solution
+             wall time =         197.00
+
+
+
+             maximum error between temperature estimate and solution is  6.6517E+00 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  6.652E+00 at node     165493
+
+             this is  6.652E+00 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         197.00
+
+
+
+             start of matrix solution
+             wall time =         197.00
+
+             CASI Assembly  Completed
+             wall time =         198.00
+
+             CASI Preconditioner Completed
+             wall time =         198.00
+
+
+
+             end of matrix solution
+             wall time =         198.00
+
+
+             maximum residual force  at node    165673 degree of freedom  3 is equal to    1.238E-04
+             maximum reaction force  at node    154165 degree of freedom  1 is equal to    3.583E+00
+             residual convergence ratio    3.456E-05
+
+
+              time increment has been changed to     6.34941E-01
+               previous time increment               5.29118E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           3.17351E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      44
+             wall time =         199.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      45
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         199.00
+
+
+
+             start of matrix solution
+             wall time =         200.00
+
+             CASI Assembly  Completed
+             wall time =         200.00
+
+             CASI Preconditioner Completed
+             wall time =         200.00
+
+
+
+             end of matrix solution
+             wall time =         200.00
+
+
+
+             maximum error between temperature estimate and solution is  4.6675E+00 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.668E+00 at node     165493
+
+             this is  4.668E+00 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         200.00
+
+
+
+             start of matrix solution
+             wall time =         201.00
+
+             CASI Assembly  Completed
+             wall time =         201.00
+
+             CASI Preconditioner Completed
+             wall time =         202.00
+
+
+
+             end of matrix solution
+             wall time =         202.00
+
+
+             maximum residual force  at node    165673 degree of freedom  3 is equal to    6.071E-05
+             maximum reaction force  at node    154286 degree of freedom  2 is equal to    2.089E+00
+             residual convergence ratio    2.907E-05
+
+
+              time increment has been changed to     7.61930E-01
+               previous time increment               6.34941E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           3.80845E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      45
+             wall time =         203.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      46
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         203.00
+
+
+
+             start of matrix solution
+             wall time =         203.00
+
+             CASI Assembly  Completed
+             wall time =         203.00
+
+             CASI Preconditioner Completed
+             wall time =         203.00
+
+
+
+             end of matrix solution
+             wall time =         203.00
+
+
+
+             maximum error between temperature estimate and solution is  3.0240E+00 at node     165493
+             this is within tolerance
+
+
+             maximum nodal temperature change is  3.024E+00 at node     165493
+
+             this is  3.024E+00 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         204.00
+
+
+
+             start of matrix solution
+             wall time =         204.00
+
+             CASI Assembly  Completed
+             wall time =         204.00
+
+             CASI Preconditioner Completed
+             wall time =         205.00
+
+
+
+             end of matrix solution
+             wall time =         205.00
+
+
+             maximum residual force  at node    165673 degree of freedom  3 is equal to    2.562E-05
+             maximum reaction force  at node    154286 degree of freedom  2 is equal to    1.142E+00
+             residual convergence ratio    2.243E-05
+
+
+              time increment has been changed to     9.14315E-01
+               previous time increment               7.61930E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           4.57038E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      46
+             wall time =         206.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      47
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         206.00
+
+
+
+             start of matrix solution
+             wall time =         206.00
+
+             CASI Assembly  Completed
+             wall time =         207.00
+
+             CASI Preconditioner Completed
+             wall time =         207.00
+
+
+
+             end of matrix solution
+             wall time =         207.00
+
+
+
+             maximum error between temperature estimate and solution is  1.7936E+00 at node     165482
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.794E+00 at node     165482
+
+             this is  1.794E+00 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         207.00
+
+
+
+             start of matrix solution
+             wall time =         207.00
+
+             CASI Assembly  Completed
+             wall time =         208.00
+
+             CASI Preconditioner Completed
+             wall time =         208.00
+
+
+
+             end of matrix solution
+             wall time =         208.00
+
+
+             maximum residual force  at node    175773 degree of freedom  3 is equal to    9.346E-06
+             maximum reaction force  at node    154286 degree of freedom  2 is equal to    5.697E-01
+             residual convergence ratio    1.641E-05
+
+
+              time increment has been changed to     1.09718E+00
+               previous time increment               9.14315E-01
+               total period to be covered            3.00000E+01
+               total period covered so far           5.48469E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      47
+             wall time =         209.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      48
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         210.00
+
+
+
+             start of matrix solution
+             wall time =         210.00
+
+             CASI Assembly  Completed
+             wall time =         210.00
+
+             CASI Preconditioner Completed
+             wall time =         210.00
+
+
+
+             end of matrix solution
+             wall time =         210.00
+
+
+
+             maximum error between temperature estimate and solution is  9.6579E-01 at node     175910
+             this is within tolerance
+
+
+             maximum nodal temperature change is  9.658E-01 at node     175910
+
+             this is  9.658E-01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         210.00
+
+
+
+             start of matrix solution
+             wall time =         211.00
+
+             CASI Assembly  Completed
+             wall time =         211.00
+
+             CASI Preconditioner Completed
+             wall time =         211.00
+
+
+
+             end of matrix solution
+             wall time =         212.00
+
+
+             maximum residual force  at node    175773 degree of freedom  3 is equal to    2.871E-06
+             maximum reaction force  at node    154286 degree of freedom  2 is equal to    2.571E-01
+             residual convergence ratio    1.117E-05
+
+
+              time increment has been changed to     1.31661E+00
+               previous time increment               1.09718E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           6.58187E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      48
+             wall time =         213.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      49
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         213.00
+
+
+
+             start of matrix solution
+             wall time =         213.00
+
+             CASI Assembly  Completed
+             wall time =         213.00
+
+             CASI Preconditioner Completed
+             wall time =         213.00
+
+
+
+             end of matrix solution
+             wall time =         213.00
+
+
+
+             maximum error between temperature estimate and solution is  4.6824E-01 at node     166131
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.682E-01 at node     166131
+
+             this is  4.682E-01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         213.00
+
+
+
+             start of matrix solution
+             wall time =         214.00
+
+             CASI Assembly  Completed
+             wall time =         215.00
+
+             CASI Preconditioner Completed
+             wall time =         215.00
+
+
+
+             end of matrix solution
+             wall time =         215.00
+
+
+             maximum residual force  at node    175775 degree of freedom  3 is equal to    7.609E-07
+             maximum reaction force  at node    154286 degree of freedom  2 is equal to    1.043E-01
+             residual convergence ratio    7.296E-06
+
+
+              time increment has been changed to     1.57994E+00
+               previous time increment               1.31661E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           7.89849E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      49
+             wall time =         216.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      50
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         216.00
+
+
+
+             start of matrix solution
+             wall time =         216.00
+
+             CASI Assembly  Completed
+             wall time =         217.00
+
+             CASI Preconditioner Completed
+             wall time =         217.00
+
+
+
+             end of matrix solution
+             wall time =         217.00
+
+
+
+             maximum error between temperature estimate and solution is  2.0279E-01 at node     161775
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.028E-01 at node     161775
+
+             this is  2.028E-01 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         217.00
+
+
+
+             start of matrix solution
+             wall time =         217.00
+
+             CASI Assembly  Completed
+             wall time =         218.00
+
+             CASI Preconditioner Completed
+             wall time =         218.00
+
+
+
+             end of matrix solution
+             wall time =         219.00
+
+
+             maximum residual force  at node    175775 degree of freedom  3 is equal to    1.659E-07
+             maximum reaction force  at node    154165 degree of freedom  1 is equal to    4.197E-02
+             residual convergence ratio    3.952E-06
+
+
+              time increment has been changed to     1.89592E+00
+               previous time increment               1.57994E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           9.47842E+00
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      50
+             wall time =         220.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      51
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         220.00
+
+
+
+             start of matrix solution
+             wall time =         220.00
+
+             CASI Assembly  Completed
+             wall time =         220.00
+
+             CASI Preconditioner Completed
+             wall time =         220.00
+
+
+
+             end of matrix solution
+             wall time =         221.00
+
+
+
+             maximum error between temperature estimate and solution is  7.7858E-02 at node     160763
+             this is within tolerance
+
+
+             maximum nodal temperature change is  7.786E-02 at node     160763
+
+             this is  7.786E-02 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         221.00
+
+
+
+             start of matrix solution
+             wall time =         221.00
+
+             CASI Assembly  Completed
+             wall time =         222.00
+
+             CASI Preconditioner Completed
+             wall time =         222.00
+
+
+
+             end of matrix solution
+             wall time =         222.00
+
+
+             maximum residual force  at node    175775 degree of freedom  3 is equal to    2.859E-08
+             maximum reaction force  at node    154165 degree of freedom  1 is equal to    1.838E-02
+             residual convergence ratio    1.555E-06
+
+
+              time increment has been changed to     2.27511E+00
+               previous time increment               1.89592E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           1.13743E+01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      51
+             wall time =         223.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      52
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         223.00
+
+
+
+             start of matrix solution
+             wall time =         224.00
+
+             CASI Assembly  Completed
+             wall time =         224.00
+
+             CASI Preconditioner Completed
+             wall time =         224.00
+
+
+
+             end of matrix solution
+             wall time =         224.00
+
+
+
+             maximum error between temperature estimate and solution is  2.6311E-02 at node     160752
+             this is within tolerance
+
+
+             maximum nodal temperature change is  2.631E-02 at node     160752
+
+             this is  2.631E-02 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         224.00
+
+
+
+             start of matrix solution
+             wall time =         225.00
+
+             CASI Assembly  Completed
+             wall time =         225.00
+
+             CASI Preconditioner Completed
+             wall time =         225.00
+
+
+
+             end of matrix solution
+             wall time =         226.00
+
+
+             maximum residual force  at node    175775 degree of freedom  3 is equal to    3.827E-09
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    1.080E-02
+             residual convergence ratio    3.545E-07
+
+
+              time increment has been changed to     2.73013E+00
+               previous time increment               2.27511E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           1.36495E+01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      52
+             wall time =         227.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      53
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         227.00
+
+
+
+             start of matrix solution
+             wall time =         227.00
+
+             CASI Assembly  Completed
+             wall time =         228.00
+
+             CASI Preconditioner Completed
+             wall time =         228.00
+
+
+
+             end of matrix solution
+             wall time =         228.00
+
+
+
+             maximum error between temperature estimate and solution is  7.7743E-03 at node     179903
+             this is within tolerance
+
+
+             maximum nodal temperature change is  7.774E-03 at node     179903
+
+             this is  7.774E-03 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         228.00
+
+
+
+             start of matrix solution
+             wall time =         228.00
+
+             CASI Assembly  Completed
+             wall time =         229.00
+
+             CASI Preconditioner Completed
+             wall time =         229.00
+
+
+
+             end of matrix solution
+             wall time =         229.00
+
+
+             maximum residual force  at node    165673 degree of freedom  3 is equal to    4.432E-10
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    9.125E-03
+             residual convergence ratio    4.857E-08
+
+
+              time increment has been changed to     3.27616E+00
+               previous time increment               2.73013E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           1.63796E+01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      53
+             wall time =         230.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      54
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         230.00
+
+
+
+             start of matrix solution
+             wall time =         231.00
+
+             CASI Assembly  Completed
+             wall time =         231.00
+
+             CASI Preconditioner Completed
+             wall time =         231.00
+
+
+
+             end of matrix solution
+             wall time =         231.00
+
+
+
+             maximum error between temperature estimate and solution is  1.9965E-03 at node     161907
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.996E-03 at node     161907
+
+             this is  1.996E-03 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         231.00
+
+
+
+             start of matrix solution
+             wall time =         232.00
+
+             CASI Assembly  Completed
+             wall time =         232.00
+
+             CASI Preconditioner Completed
+             wall time =         232.00
+
+
+
+             end of matrix solution
+             wall time =         233.00
+
+
+             maximum residual force  at node    166892 degree of freedom  3 is equal to    1.038E-10
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    8.706E-03
+             residual convergence ratio    1.192E-08
+
+
+              time increment has been changed to     3.93139E+00
+               previous time increment               3.27616E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           1.96557E+01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      54
+             wall time =         234.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      55
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         234.00
+
+
+
+             start of matrix solution
+             wall time =         234.00
+
+             CASI Assembly  Completed
+             wall time =         234.00
+
+             CASI Preconditioner Completed
+             wall time =         235.00
+
+
+
+             end of matrix solution
+             wall time =         235.00
+
+
+
+             maximum error between temperature estimate and solution is  4.4313E-04 at node     179496
+             this is within tolerance
+
+
+             maximum nodal temperature change is  4.431E-04 at node     179496
+
+             this is  4.431E-04 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         235.00
+
+
+
+             start of matrix solution
+             wall time =         235.00
+
+             CASI Assembly  Completed
+             wall time =         236.00
+
+             CASI Preconditioner Completed
+             wall time =         236.00
+
+
+
+             end of matrix solution
+             wall time =         236.00
+
+
+             maximum residual force  at node    165825 degree of freedom  3 is equal to    2.410E-11
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    8.615E-03
+             residual convergence ratio    2.798E-09
+
+
+              time increment has been changed to     4.71767E+00
+               previous time increment               3.93139E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           2.35871E+01
+              due to number of recycles
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      55
+             wall time =         237.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      56
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         237.00
+
+
+
+             start of matrix solution
+             wall time =         237.00
+
+             CASI Assembly  Completed
+             wall time =         238.00
+
+             CASI Preconditioner Completed
+             wall time =         238.00
+
+
+
+             end of matrix solution
+             wall time =         238.00
+
+
+
+             maximum error between temperature estimate and solution is  8.4800E-05 at node     170674
+             this is within tolerance
+
+
+             maximum nodal temperature change is  8.480E-05 at node     170674
+
+             this is  8.480E-05 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         238.00
+
+
+
+             start of matrix solution
+             wall time =         238.00
+
+             CASI Assembly  Completed
+             wall time =         239.00
+
+             CASI Preconditioner Completed
+             wall time =         239.00
+
+
+
+             end of matrix solution
+             wall time =         240.00
+
+
+             maximum residual force  at node    165825 degree of freedom  3 is equal to    4.667E-12
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    8.599E-03
+             residual convergence ratio    5.427E-10
+
+
+              time increment has been changed to     1.69520E+00
+               previous time increment               4.71767E+00
+               total period to be covered            3.00000E+01
+               total period covered so far           2.83048E+01
+              to avoid going past total load
+ 
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      56
+             wall time =         241.00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t      57
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         241.00
+
+
+
+             start of matrix solution
+             wall time =         241.00
+
+             CASI Assembly  Completed
+             wall time =         241.00
+
+             CASI Preconditioner Completed
+             wall time =         242.00
+
+
+
+             end of matrix solution
+             wall time =         242.00
+
+
+
+             maximum error between temperature estimate and solution is  1.0984E-05 at node     166263
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.098E-05 at node     166263
+
+             this is  1.098E-05 percent of change allowed on control option
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         242.00
+
+
+
+             start of matrix solution
+             wall time =         242.00
+
+             CASI Assembly  Completed
+             wall time =         243.00
+
+             CASI Preconditioner Completed
+             wall time =         243.00
+
+
+
+             end of matrix solution
+             wall time =         243.00
+
+
+             maximum residual force  at node    166122 degree of freedom  3 is equal to    5.826E-13
+             maximum reaction force  at node    164879 degree of freedom  1 is equal to    8.596E-03
+             residual convergence ratio    6.777E-11
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      57
+             wall time =         244.00
+
+
+             *** warning - multithreading for mass matrix assembly is suppressed due to CASI solver.
+
+
+
+             s t a r t   o f   i n c r e m e n t      58
+
+             thermal pass        
+
+             start of assembly     cycle number is     0
+             wall time =         244.00
+
+
+
+             start of matrix solution
+             wall time =         245.00
+
+             CASI Assembly  Completed
+             wall time =         245.00
+
+             CASI Preconditioner Completed
+             wall time =         245.00
+
+
+
+             end of matrix solution
+             wall time =         245.00
+
+
+
+             maximum error between temperature estimate and solution is  9.3104E+02 at node     133554
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         245.00
+
+
+
+             start of matrix solution
+             wall time =         246.00
+
+             CASI Assembly  Completed
+             wall time =         246.00
+
+             CASI Preconditioner Completed
+             wall time =         246.00
+
+
+
+             end of matrix solution
+             wall time =         246.00
+
+
+
+             maximum error between temperature estimate and solution is  1.6967E+02 at node     134761
+             this exceeds tolerance
+
+             step will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =         246.00
+
+
+
+             start of matrix solution
+             wall time =         247.00
+
+             CASI Assembly  Completed
+             wall time =         247.00
+
+             CASI Preconditioner Completed
+             wall time =         247.00
+
+
+
+             end of matrix solution
+             wall time =         247.00
+
+
+
+             maximum error between temperature estimate and solution is  8.1552E+00 at node     148800
+             this is within tolerance
+
+
+             maximum nodal temperature change is  1.009E+03 at node     130346
+
+             this is  1.009E+03 percent of change allowed on control option
+
+
+             automatic time stepping is switched off
+
+             stress pass         
+
+             start of assembly     cycle number is     0
+             wall time =         247.00
+
+
+
+             start of matrix solution
+             wall time =         248.00
+
+             CASI Assembly  Completed
+             wall time =         249.00
+
+             CASI Preconditioner Completed
+             wall time =         249.00
+
+
+
+             end of matrix solution
+             wall time =         252.00
+
+
+             maximum residual force  at node    136357 degree of freedom  3 is equal to    3.796E+00
+             maximum reaction force  at node    133911 degree of freedom  3 is equal to    4.758E+00
+             residual convergence ratio    7.977E-01
+
+             maximum displacement  change   at node    118753 degree of freedom  1 is equal to    6.618E-05
+             maximum displacement increment at node    118753 degree of freedom  1 is equal to    6.618E-05
+             displacement convergence ratio   1.000E+00
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     1
+             wall time =         252.00
+
+
+
+             start of matrix solution
+             wall time =         253.00
+
+             CASI Assembly  Completed
+             wall time =         254.00
+
+             CASI Preconditioner Completed
+             wall time =         254.00
+
+
+
+             end of matrix solution
+             wall time =         257.00
+
+
+             maximum residual force  at node    148754 degree of freedom  1 is equal to    2.674E+00
+             maximum reaction force  at node    133911 degree of freedom  3 is equal to    3.611E+00
+             residual convergence ratio    7.406E-01
+
+             maximum displacement  change   at node     65765 degree of freedom  2 is equal to    1.125E-05
+             maximum displacement increment at node    118753 degree of freedom  1 is equal to    6.620E-05
+             displacement convergence ratio   1.699E-01
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     2
+             wall time =         257.00
+
+
+
+             start of matrix solution
+             wall time =         258.00
+
+             CASI Assembly  Completed
+             wall time =         258.00
+
+             CASI Preconditioner Completed
+             wall time =         258.00
+
+
+
+             end of matrix solution
+             wall time =         261.00
+
+
+             maximum residual force  at node    135958 degree of freedom  3 is equal to    6.442E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.515E+00
+             residual convergence ratio    1.833E-01
+
+             maximum displacement  change   at node     65767 degree of freedom  2 is equal to    2.796E-06
+             maximum displacement increment at node    118753 degree of freedom  1 is equal to    6.617E-05
+             displacement convergence ratio   4.226E-02
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     3
+             wall time =         261.00
+
+
+
+             start of matrix solution
+             wall time =         262.00
+
+             CASI Assembly  Completed
+             wall time =         262.00
+
+             CASI Preconditioner Completed
+             wall time =         263.00
+
+
+
+             end of matrix solution
+             wall time =         265.00
+
+
+             maximum residual force  at node    135958 degree of freedom  3 is equal to    4.489E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.509E+00
+             residual convergence ratio    1.279E-01
+
+             maximum displacement  change   at node     65773 degree of freedom  2 is equal to    8.941E-07
+             maximum displacement increment at node    118753 degree of freedom  1 is equal to    6.615E-05
+             displacement convergence ratio   1.352E-02
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     4
+             wall time =         266.00
+
+
+
+             start of matrix solution
+             wall time =         267.00
+
+             CASI Assembly  Completed
+             wall time =         267.00
+
+             CASI Preconditioner Completed
+             wall time =         267.00
+
+
+
+             end of matrix solution
+             wall time =         270.00
+
+
+             maximum residual force  at node    147986 degree of freedom  1 is equal to    3.497E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.507E+00
+             residual convergence ratio    9.973E-02
+
+             maximum displacement  change   at node     77396 degree of freedom  3 is equal to    4.256E-07
+             maximum displacement increment at node    118753 degree of freedom  1 is equal to    6.613E-05
+             displacement convergence ratio   6.436E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     5
+             wall time =         270.00
+
+
+
+             start of matrix solution
+             wall time =         271.00
+
+             CASI Assembly  Completed
+             wall time =         271.00
+
+             CASI Preconditioner Completed
+             wall time =         272.00
+
+
+
+             end of matrix solution
+             wall time =         274.00
+
+
+             maximum residual force  at node    147986 degree of freedom  1 is equal to    3.225E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.504E+00
+             residual convergence ratio    9.203E-02
+
+             maximum displacement  change   at node      7632 degree of freedom  1 is equal to    3.067E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.614E-05
+             displacement convergence ratio   4.637E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     6
+             wall time =         275.00
+
+
+
+             start of matrix solution
+             wall time =         275.00
+
+             CASI Assembly  Completed
+             wall time =         276.00
+
+             CASI Preconditioner Completed
+             wall time =         276.00
+
+
+
+             end of matrix solution
+             wall time =         279.00
+
+
+             maximum residual force  at node    147986 degree of freedom  1 is equal to    2.937E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.502E+00
+             residual convergence ratio    8.387E-02
+
+             maximum displacement  change   at node      7231 degree of freedom  1 is equal to    2.407E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.616E-05
+             displacement convergence ratio   3.638E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     7
+             wall time =         279.00
+
+
+
+             start of matrix solution
+             wall time =         280.00
+
+             CASI Assembly  Completed
+             wall time =         281.00
+
+             CASI Preconditioner Completed
+             wall time =         281.00
+
+
+
+             end of matrix solution
+             wall time =         283.00
+
+
+             maximum residual force  at node    148387 degree of freedom  1 is equal to    2.720E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.500E+00
+             residual convergence ratio    7.773E-02
+
+             maximum displacement  change   at node     70990 degree of freedom  1 is equal to    1.931E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.617E-05
+             displacement convergence ratio   2.918E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     8
+             wall time =         284.00
+
+
+
+             start of matrix solution
+             wall time =         284.00
+
+             CASI Assembly  Completed
+             wall time =         285.00
+
+             CASI Preconditioner Completed
+             wall time =         285.00
+
+
+
+             end of matrix solution
+             wall time =         288.00
+
+
+             maximum residual force  at node    148387 degree of freedom  1 is equal to    2.517E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.498E+00
+             residual convergence ratio    7.194E-02
+
+             maximum displacement  change   at node      7231 degree of freedom  1 is equal to    1.579E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.619E-05
+             displacement convergence ratio   2.385E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is     9
+             wall time =         288.00
+
+
+
+             start of matrix solution
+             wall time =         289.00
+
+             CASI Assembly  Completed
+             wall time =         289.00
+
+             CASI Preconditioner Completed
+             wall time =         290.00
+
+
+
+             end of matrix solution
+             wall time =         292.00
+
+
+             maximum residual force  at node    148387 degree of freedom  1 is equal to    2.315E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.497E+00
+             residual convergence ratio    6.618E-02
+
+             maximum displacement  change   at node      7231 degree of freedom  1 is equal to    1.319E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.621E-05
+             displacement convergence ratio   1.992E-03
+
+             failure to converge to tolerance
+
+             increment will be recycled
+
+             start of assembly     cycle number is    10
+             wall time =         293.00
+
+
+
+             start of matrix solution
+             wall time =         293.00
+
+             CASI Assembly  Completed
+             wall time =         294.00
+
+             CASI Preconditioner Completed
+             wall time =         294.00
+
+
+
+             end of matrix solution
+             wall time =         296.00
+
+
+             maximum residual force  at node    148387 degree of freedom  1 is equal to    2.120E-01
+             maximum reaction force  at node    141931 degree of freedom  3 is equal to    3.497E+00
+             residual convergence ratio    6.063E-02
+
+             maximum displacement  change   at node      7231 degree of freedom  1 is equal to    1.114E-07
+             maximum displacement increment at node    102713 degree of freedom  1 is equal to    6.622E-05
+             displacement convergence ratio   1.682E-03
+
+             failure to converge to tolerance
+
+             *** error - too many recycles - job ends at this increment
+
+             total  memory =         1382  MByte
+
+             e n d   o f   i n c r e m e n t      58
+             wall time =         299.00
+
+
+
+             analysis fails to converge during this increment
+             max. no. of recycles or max. no. of cutbacks exceeded
+Returned 1 license for Marc
+
+Returned 2 licenses for Marc Parallel
+
+             average number of CASI iterations =         56
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:          14     3792146         1.0
+               solver: first part                  185    48626768        13.4
+               other:                                0      113672         0.0
+              allocated separately:
+               incremental backup:                 293    76913056        21.2
+               solver 9                            130    33990791         9.4
+               nodal vectors:                       64    16886378         4.7
+               defined sets:                         5     1376774         0.4
+               transformations:                      1      371128         0.1
+               kinematic boundary conditions:        7     1829914         0.5
+               tables:                               0        1592         0.0
+               points, curves and surfaces:          0         372         0.0
+               mem_none:                           372    97636256        27.0
+               element storage:                    374    98057608        27.1
+               material properties:                  0        6242         0.0
+               element coloring resident:            0      108712         0.0
+               element coloring peak:                3      728638         0.2
+               multi-threading scratch array:        0         794         0.0
+               executable and common blocks:        27     7000000         1.9
+               ---------------------------------------------------------------
+               total:                             1382   362183335
+
+               general memory allocated:           107    28003866
+               general memory used:                200    52532586
+
+               peak memory usage:                 1591   417021329
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              5.70          5.69
+               total time for stiffness matrix assembly:         41.32         80.84
+               total time for mass matrix assembly:               8.05         15.97
+               total time for stress recovery:                   27.00         53.31
+               total time for matrix solution:                  153.85        201.86
+               total time for output:                            50.35         60.44
+               total time for miscellaneous:                     12.14         12.25
+               ---------------------------------------------------------------------
+               total time:                                      298.40        430.36
+
+
+             multi-threading overheads:                      wall time      cpu time
+
+               total time for multi-threading:                    0.06          0.03
+               (note that this time is also counted
+                in other sections)
+
+
+
+             **************************************************************************
+
+
+             
+             Analysis has failed to converge to required convergence
+             tolerances. One of several error conditions has been
+             detected and the run aborted. The output will specify
+             additional messages.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2018.0.0 GA
+
+                                        Exit number 3002
+
