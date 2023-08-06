@@ -1,0 +1,18 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "c:\mac mentat\test1.mud"
+File has been written by Mentat 2018.0.0.
+Model file c:\mac mentat\test1.mud opened for reading.
+Model c:\mac mentat\test1 opened.
+Command > *fill_view
+Command > *edit_job job2
+Enter edit job : 
+Command > *update_job
+Command > *submit_job 1 *monitor_job
+INFO: Analysis dimension is derived from element class tetra4.
+INFO: Assuming 3-D analysis!
+INFO: Found 0 errors and 0 warnings.
+"C:\MSC~1.SOF\Marc\20180~1.0\MENTAT~1\bin\submit1.bat" marc default 1 1 - - test1_job2 - - - - - 0 n n - - 0 1 1 0 - -
+Job job2 submitted!
+Command > *save_model *quit yes
+Model file c:\mac mentat\test1.mud opened for writing.
+Model saved to c:\mac mentat\test1.

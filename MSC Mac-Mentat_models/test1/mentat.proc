@@ -1,0 +1,14 @@
+| Created by Marc Mentat 2018.0.0 GA (64bit)
+*prog_option compatibility:prog_version:ment2018
+*prog_analysis_class structural
+*prog_use_current_job on
+*set_default_length_unit millimeter
+*set_model_length_unit millimeter
+|
+*open_model "c:\mac mentat\test1.mud"
+*fill_view
+*edit_job job2
+
+*update_job
+*submit_job 1 *monitor_job
+*save_model *quit yes

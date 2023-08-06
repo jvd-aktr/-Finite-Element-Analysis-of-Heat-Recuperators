@@ -1,0 +1,91 @@
+| Created by Marc Mentat 2018.0.0 GA (64bit)
+*prog_option compatibility:prog_version:ment2018
+*prog_analysis_class structural
+*prog_use_current_job on
+*set_default_length_unit millimeter
+*set_model_length_unit millimeter
+|
+*open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\lab08--\bridge_start.mud"
+*fill_view
+*edit_apply solid_fixed
+
+*edit_apply for_baseplate_removal
+
+*edit_apply Row_1_Heat
+*edit_apply Row_2_Heat
+*edit_apply Row_3_Heat
+*edit_apply Row_4_Heat
+*edit_apply Row_5_Heat
+*edit_apply Row_6_Heat
+*edit_apply Fixed_Temp_Baseplate
+*edit_apply Row_1_Heat
+
+*edit_apply Row_2_Heat
+
+*model_orientation_iso1
+*model_orientation_left
+*node_display_on *redraw
+*edit_apply Row_1_Heat
+*edit_apply Row_2_Heat
+*edit_apply Row_1_Heat
+*zoom_box
+*zoom_box(1,0.441016,0.518283,0.570780,0.621622)
+*edit_apply Row_2_Heat
+*edit_apply Row_1_Heat
+*edit_apply Row_2_Heat
+*edit_apply Row_1_Heat
+*edit_apply Fixed_Temp_Baseplate
+*fill_view
+*model_orientation_back
+*model_orientation_left
+*model_orientation_right
+*model_orientation_top
+*model_orientation_iso1
+*edit_apply Fixed_Temp_Baseplate
+
+*edit_apply Row_1_Heat
+*edit_apply Row_1_Heat
+
+*edit_loadcase Row_1_Heat
+*edit_loadcase Row_1_Heat
+
+*model_orientation_left
+*zoom_box
+*zoom_box(1,0.366606,0.381558,0.684211,0.664547)
+*invisible_set Row_1 *redraw
+*visible_set Row_1 *redraw
+*invisible_set Row_1 *redraw
+*visible_set Row_1 *redraw
+*invisible_set Row_1_Heat_elements *redraw
+*visible_set Row_1_Heat_elements *redraw
+*invisible_set Row_1 *redraw
+*visible_set Row_1 *redraw
+*invisible_set Row_1_Heat_elements *redraw
+*visible_set Row_1_Heat_elements *redraw
+*edit_loadcase Baseplate_removal_1
+*edit_loadcase Baseplate_removal_1
+
+*edit_loadcase Row_2_Heat
+*edit_loadcase Row_2_Heat
+
+*edit_loadcase Baseplate_removal_1
+*edit_loadcase Baseplate_removal_1
+
+*edit_loadcase Baseplate_removal_2
+*edit_loadcase Baseplate_removal_2
+
+*invisible_set Baseplate_removal_2_elements *redraw
+*visible_set Baseplate_removal_2_elements *redraw
+*edit_loadcase Baseplate_removal_1
+
+*edit_loadcase Baseplate_removal_2
+*edit_loadcase Baseplate_removal_2
+
+*edit_loadcase Baseplate_removal_1
+*edit_loadcase Baseplate_removal_2
+*edit_apply statevar2_baseplate
+
+*model_orientation_iso1
+*edit_apply solid_fixed
+*edit_apply Fixed_Temp_Baseplate
+*quit yes

@@ -1,0 +1,88 @@
+Marc Mentat (C)Copyright 1994-2018, MSC Software Corporation, all rights reserved
+Command > *open_model "c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\lab08--\bridge_start.mud"
+File has been written by Mentat 2018.0.0.
+Model file c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\lab08--\bridge_start.mud opened for reading.
+Model c:\users\akhta\onedrive - new mexico state university\mae_nmsu\2021\fall2021\me518_fea\project\mac-mentat\lab08--\bridge_start opened.
+Command > *fill_view
+Command > *edit_apply solid_fixed
+Enter apply name : 
+Command > *edit_apply for_baseplate_removal
+Enter apply name : 
+Command > *edit_apply Row_1_Heat
+Enter apply name : *edit_apply Row_2_Heat
+Enter apply name : *edit_apply Row_3_Heat
+Enter apply name : *edit_apply Row_4_Heat
+Enter apply name : *edit_apply Row_5_Heat
+Enter apply name : *edit_apply Row_6_Heat
+Enter apply name : *edit_apply Fixed_Temp_Baseplate
+Enter apply name : *edit_apply Row_1_Heat
+Enter apply name : 
+Command > *edit_apply Row_2_Heat
+Enter apply name : 
+Command > *model_orientation_iso1
+Command > *model_orientation_left
+Command > *node_display_on *redraw
+Command > *edit_apply Row_1_Heat
+Enter apply name : *edit_apply Row_2_Heat
+Enter apply name : *edit_apply Row_1_Heat
+Enter apply name : *zoom_box
+Enter apply name : *zoom_box(1,0.441016,0.518283,0.570780,0.621622)
+Enter apply name : *edit_apply Row_2_Heat
+Enter apply name : *edit_apply Row_1_Heat
+Enter apply name : *edit_apply Row_2_Heat
+Enter apply name : *edit_apply Row_1_Heat
+Enter apply name : *edit_apply Fixed_Temp_Baseplate
+Enter apply name : *fill_view
+Enter apply name : *model_orientation_back
+Enter apply name : *model_orientation_left
+Enter apply name : *model_orientation_right
+Enter apply name : *model_orientation_top
+Enter apply name : *model_orientation_iso1
+Enter apply name : *edit_apply Fixed_Temp_Baseplate
+Enter apply name : 
+Command > *edit_apply Row_1_Heat
+Enter apply name : *edit_apply Row_1_Heat
+Enter apply name : 
+Command > *edit_loadcase Row_1_Heat
+Enter loadcase to edit : *edit_loadcase Row_1_Heat
+Enter loadcase to edit : 
+Command > *model_orientation_left
+Command > *zoom_box
+Command > *zoom_box(1,0.366606,0.381558,0.684211,0.664547)
+Command > *invisible_set Row_1 *redraw
+Enter set invisible set : *visible_set Row_1 *redraw
+Enter set visible set : *invisible_set Row_1 *redraw
+Enter set invisible set : *visible_set Row_1 *redraw
+Enter set visible set : *invisible_set Row_1_Heat_elements *redraw
+Enter set invisible set : *visible_set Row_1_Heat_elements *redraw
+Enter set visible set : *invisible_set Row_1 *redraw
+Enter set invisible set : *visible_set Row_1 *redraw
+Enter set visible set : *invisible_set Row_1_Heat_elements *redraw
+Enter set invisible set : *visible_set Row_1_Heat_elements *redraw
+Enter set visible set : *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : 
+Command > *edit_loadcase Row_2_Heat
+Enter loadcase to edit : *edit_loadcase Row_2_Heat
+Enter loadcase to edit : 
+Command > *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : 
+Command > *edit_loadcase Baseplate_removal_2
+Enter loadcase to edit : *edit_loadcase Baseplate_removal_2
+Enter loadcase to edit : 
+Command > *invisible_set Baseplate_removal_2_elements *redraw
+Enter set invisible set : *visible_set Baseplate_removal_2_elements *redraw
+Enter set visible set : *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : 
+Command > *edit_loadcase Baseplate_removal_2
+Enter loadcase to edit : *edit_loadcase Baseplate_removal_2
+Enter loadcase to edit : 
+Command > *edit_loadcase Baseplate_removal_1
+Enter loadcase to edit : *edit_loadcase Baseplate_removal_2
+Enter loadcase to edit : *edit_apply statevar2_baseplate
+Enter apply name : 
+Command > *model_orientation_iso1
+Command > *edit_apply solid_fixed
+Enter apply name : *edit_apply Fixed_Temp_Baseplate
+Enter apply name : *quit yes
